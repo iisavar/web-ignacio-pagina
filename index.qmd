@@ -7,13 +7,13 @@ about:
   links:
     - icon: envelope
       text: Gmail
-      href: mailto:Ignacio.isa007@gmail.com
+      href: mailto:ignacio.isa007@gmail.com
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ignacio-isa-vargas-a6b853224/
     - icon: github
       text: GitHub
-      href: https://github.com/nachoisa
+      href: https://github.com/iisavar
     - icon: orcid
       text: ORCID
       href: https://orcid.org/0009-0007-9837-4500
