@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ignacio Isa Vargas",
     "section": "",
-    "text": "Evaluation of the NEKATE Bioproduct in Zea mays\n\nDate: July 4, 2025\nType: Academic Poster – State University of Milagro\nExperimental project evaluating NEKATE as a sustainable bioinsecticide and plant growth stimulant in maize (Zea mays). Presented in poster format at the State University of Milagro.\n\nView Poster\n\n\n\n\n\n\n   \n\nBibliometric Analysis of the Impact of Graphene on Bacteria–Material Interaction\n\nDate: In Progress\nType: Bibliometric Study\nThis study explores the interaction between graphene and bacterial systems, focusing on scientific trends, research contributions, and future perspectives.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress\n\n\n\n\n\n\n   \n\nBibliometric Analysis of Graphene Derivatives Applied to Biotechnology (2010–2024)\n\nDate: In Progress\nType: Bibliometric Study – University of Guayaquil\nOngoing study on the use of graphene oxides and derivatives in biotechnology. The manuscript is currently being prepared for presentation at an academic conference at the University of Guayaquil.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress"
+    "text": "Hi, welcome to my personal webpage!\nI’m Ignacio, a Biotechnology student at the State University of Milagro. I specialize in data analysis, experimental design, and science education.\nCurrently, I’m working on research projects involving graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research."
   },
   {
-    "objectID": "projects.html#bibliometric-analysis-of-the-impact-of-graphene-on-bacteriamaterial-interaction",
-    "href": "projects.html#bibliometric-analysis-of-the-impact-of-graphene-on-bacteriamaterial-interaction",
-    "title": "Projects",
+    "objectID": "research/project-1.html",
+    "href": "research/project-1.html",
+    "title": "My First Project",
     "section": "",
-    "text": "Date: July 2024\nThis bibliometric analysis explores how graphene interacts with bacterial systems, focusing on publication trends, scientific contributions, and future perspectives.\nThe study used Scopus data and tools like VOSviewer and Bibliometrix to visualize collaboration networks, keyword evolution, and research impact.\n\nDownload PDF"
+    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
   },
   {
-    "objectID": "projects.html#placeholder-title-for-future-project",
-    "href": "projects.html#placeholder-title-for-future-project",
-    "title": "Projects",
-    "section": "[Placeholder Title for Future Project]",
-    "text": "[Placeholder Title for Future Project]\nComing soon…"
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "All of my research projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Paper\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nSimone , Matthew DeHaven\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Project\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nSimone\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Ignacio Isa",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Biotechnology Engineering (in progress)\n\n\nState University of Milagro"
+    "text": "Ignacio Isa Vargas\n\nMilagro, Ecuador\n\n\n  \n  \n  \n  \n\n\nPassionate about applied statistics, scientific research, and academic teaching."
   },
   {
     "objectID": "about.html#education",
@@ -49,67 +49,11 @@
     "text": "Languages and Tools\n\n Python – Basic\n\n\n R – Intermediate\n\n\n LaTeX – Intermediate"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ignacio Isa Vargas",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Hi, welcome to my personal webpage!\nI’m Ignacio, a Biotechnology student at the State University of Milagro. I specialize in data analysis, experimental design, and science education.\nCurrently, I’m working on research projects involving graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Ignacio Isa Vargas\n\nMilagro, Ecuador\n\n\n  \n  \n  \n  \n\n\nPassionate about applied statistics, scientific research, and academic teaching."
-  },
-  {
-    "objectID": "cv.html#ignacio-isa-vargas",
-    "href": "cv.html#ignacio-isa-vargas",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Milagro, Ecuador\nEmail: Ignacio.isa007@gmail.com | LinkedIn | GitHub"
-  },
-  {
-    "objectID": "cv.html#perfil",
-    "href": "cv.html#perfil",
-    "title": "Curriculum Vitae",
-    "section": "Perfil",
-    "text": "Perfil\nEstudiante de Ingeniería en Biotecnología en la Universidad Estatal de Milagro (UNEMI), con experiencia en docencia, asesoría académica y liderazgo estudiantil…"
-  },
-  {
-    "objectID": "cv.html#educación",
-    "href": "cv.html#educación",
-    "title": "Curriculum Vitae",
-    "section": "Educación",
-    "text": "Educación\n\nIngeniería en Biotecnología – Universidad Estatal de Milagro (2022–presente)\nRepresentante académico (2024–2025) | Miembro de BioQuator"
-  },
-  {
-    "objectID": "cv.html#experiencia",
-    "href": "cv.html#experiencia",
-    "title": "Curriculum Vitae",
-    "section": "Experiencia",
-    "text": "Experiencia\nCapacitación Integral – Profesor de Matemáticas y Biología (2023–presente)\n- Imparto clases de nivelación y elaboro materiales educativos.\n- Monitoreo de desempeño y adaptación didáctica.\nConsultoría Independiente – Asesor en Investigación (2025–presente)\n- Diseño experimental y análisis de datos con R y SPSS.\n- Redacción científica y apoyo en tesis de pregrado."
-  },
-  {
-    "objectID": "cv.html#cursos-relevantes",
-    "href": "cv.html#cursos-relevantes",
-    "title": "Curriculum Vitae",
-    "section": "Cursos Relevantes",
-    "text": "Cursos Relevantes\n\nBioestadística en R – BioHack UIO\n\nSPSS Intermedio – CICEID\n\nLaTeX – Udemy\n\nDiseño Experimental – CICEID"
-  },
-  {
-    "objectID": "research/project-1.html",
-    "href": "research/project-1.html",
-    "title": "My First Project",
-    "section": "",
-    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "All of my research projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Paper\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nSimone , Matthew DeHaven\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Project\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nSimone\n\n\n\n\n\nNo matching items"
+    "text": "Evaluation of the NEKATE Bioproduct in Zea mays\n\nDate: July 4, 2025\nType: Academic Poster – State University of Milagro\nExperimental project evaluating NEKATE as a sustainable bioinsecticide and plant growth stimulant in maize (Zea mays). Presented in poster format at the State University of Milagro.\n\nView Poster\n\n\n\n\n\n\n   \n\nBibliometric Analysis of the Impact of Graphene on Bacteria–Material Interaction\n\nDate: In Progress\nType: Bibliometric Study\nThis study explores the interaction between graphene and bacterial systems, focusing on scientific trends, research contributions, and future perspectives.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress\n\n\n\n\n\n\n   \n\nBibliometric Analysis of Graphene Derivatives Applied to Biotechnology (2010–2024)\n\nDate: In Progress\nType: Bibliometric Study – University of Guayaquil\nOngoing study on the use of graphene oxides and derivatives in biotechnology. The manuscript is currently being prepared for presentation at an academic conference at the University of Guayaquil.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress"
   },
   {
     "objectID": "research/paper-1.html",
@@ -117,12 +61,5 @@
     "title": "My First Paper",
     "section": "",
     "text": "A description of my paper.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "index.html#hola",
-    "href": "index.html#hola",
-    "title": "Ignacio Isa Vargas",
-    "section": "",
-    "text": "Hi, welcome to my personal webpage!\nI’m Ignacio, a Biotechnology student at the State University of Milagro. I focus on data analysis, experimental design, and science education. Currently, I’m writing research papers on graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research."
   }
 ]
