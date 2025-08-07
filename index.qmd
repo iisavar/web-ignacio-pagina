@@ -1,0 +1,36 @@
+---
+title: "Ignacio Isa Vargas"
+pagetitle: "Home"
+about:
+  template: jolla
+  image: foto_ignacio.jpg
+  links:
+    - icon: envelope
+      text: Gmail
+      href: mailto:Ignacio.isa007@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ignacio-isa-vargas-a6b853224/
+    - icon: github
+      text: GitHub
+      href: https://github.com/nachoisa
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0009-0007-9837-4500
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: false
+    body-class: index-jolla-page
+---
+
+
+Hi, welcome to my personal webpage!  
+
+I'm Ignacio, a Biotechnology student at the State University of Milagro. I specialize in data analysis, experimental design, and science education. 
+
+Currently, I’m working on research projects involving graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research.
+

@@ -1,0 +1,11 @@
+---
+title: "My First Paper"
+author: 
+  - Simone
+  - Matthew DeHaven
+date: "January 01, 2024"
+---
+
+A description of my paper.
+
+Could include a photo, or links, or anything at all!

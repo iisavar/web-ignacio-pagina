@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ignacio Isa"
+  favicon: logo_i02.png
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
+      - href: cv.pdf
+        text: Curriculum Vitae
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toggle: true              
+    css: styles.css
+    toc: true
+    page-layout: full
+    preferred-format: html

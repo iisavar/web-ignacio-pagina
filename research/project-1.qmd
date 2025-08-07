@@ -1,0 +1,9 @@
+---
+title: "My First Project"
+author: Simone
+date: "February 28, 2024"
+---
+
+A description of my project.
+
+Could include a photo, or links, or anything at all!

@@ -1,0 +1,58 @@
+---
+title: "Ignacio Isa Vargas"
+pagetitle: "About me"
+subtitle: "Passionate about research and teaching"
+about:
+  template: trestles
+  image: foto_ignacio.jpg
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: false
+---
+
+
+<div style="height: 40px;"></div>
+
+## Education
+
+<p style="display: flex; align-items: center; justify-content: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 10px;">
+    <path d="M8.211 2.047a.5.5 0 0 0-.422 0L.064 5.387a.5.5 0 0 0 0 .976l7.85 3.339 7.85-3.339a.5.5 0 0 0 0-.976z"/>
+    <path d="M4.175 10.74c-.05.122-.1.246-.152.37L7.765 12.87a.5.5 0 0 0 .47 0l3.742-1.748c-.053-.124-.105-.247-.155-.37L8 11.294z"/>
+    <path d="M16 4.922L8 8.432 0 4.922 8 1.412l8 3.51zM8.5 14.5c0 .328-.246.592-.5.592s-.5-.264-.5-.592V12.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2z"/>
+  </svg>
+  <span style="font-size: 1.1rem; font-weight: 600;">B.Sc. in Biotechnology Engineering (in progress)</span>
+</p>
+
+<p style="text-align: center; font-size: 0.95rem; color: #555;">
+  State University of Milagro
+</p>
+
+
+## Experience
+
+- I teach high school mathematics and biology at an academic center, providing personalized instruction and evaluation.
+- As an independent research consultant, I support undergraduate students with experimental design, data analysis, and scientific writing using R, Python, and LaTeX.
+- I served as a teaching assistant for the Physical Chemistry course at UNEMI, assisting in lab sessions and academic workshops.
+- I also gained practical lab experience by preparing biological samples and supporting clinical procedures at a medical center.
+
+## Languages and Tools
+
+<p style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="28px" style="margin-right: 8px;" />
+  Python – Basic
+</p>
+
+<p style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="28px" style="margin-right: 8px;" />
+  R – Intermediate
+</p>
+
+<p style="display: flex; align-items: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="28px" style="margin-right: 8px;" />
+  LaTeX – Intermediate
+</p>

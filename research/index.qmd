@@ -1,0 +1,9 @@
+---
+title: "Research"
+listing:
+  type: default
+  contents:
+    - "*.qmd"
+---
+
+All of my research projects.

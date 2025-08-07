@@ -1,0 +1,39 @@
+---
+title: "Curriculum Vitae"
+format: html
+---
+
+<!-- Encabezado solo íconos, sin texto -->
+<div style="text-align: center; margin-top: 30px;">
+
+# Ignacio Isa Vargas
+
+<p style="margin: 5px 0; font-size: 1em;">
+  Milagro, Ecuador
+</p>
+
+<p style="margin: 10px 0; display: flex; justify-content: center; gap: 25px; align-items: center; flex-wrap: wrap;">
+
+  <a href="mailto:Ignacio.isa007@gmail.com" title="Gmail" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" width="30px" style="vertical-align: middle;" />
+  </a>
+
+  <a href="https://wa.me/593981981258" title="WhatsApp" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" width="30px" style="vertical-align: middle;" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/ignacio-isa-vargas-a6b853224/" title="LinkedIn" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="30px" style="vertical-align: middle;" />
+  </a>
+
+  <a href="https://github.com/nachoisa" title="GitHub" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="30px" style="vertical-align: middle;" />
+  </a>
+
+</p>
+
+<p style="margin-top: 10px; font-size: 1.1em;">
+  Passionate about applied statistics, scientific research, and academic teaching.
+</p>
+
+</div>
