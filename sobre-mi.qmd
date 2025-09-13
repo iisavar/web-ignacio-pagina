@@ -37,7 +37,7 @@ format:
 
 - Consultor en análisis de datos, asesoro en el uso de R, Python y LaTeX para proyectos académicos.
 
-- Ayudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en sesiones de laboratorio y talleres académicos.
+- Ayudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en laboratorio y talleres académicos.
 
 - Experiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos.
 
