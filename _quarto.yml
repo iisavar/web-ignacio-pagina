@@ -5,6 +5,13 @@ project:
     - cv.pdf
     - logo_i02.png
     - images/**
+  render:
+    - index.qmd
+    - about.qmd
+    - projects.qmd
+    - es/index.qmd
+    - es/sobre-mi.qmd
+    - es/proyectos.qmd
 
 website:
   title: "Ignacio Isa"
@@ -20,6 +27,13 @@ website:
         text: Projects
       - href: cv.pdf
         text: Curriculum Vitae
+    right:
+      - text: Language
+        menu:
+          - text: English
+            href: index.qmd
+          - text: Español
+            href: es/index.qmd
 
 format:
   html:
@@ -29,3 +43,4 @@ format:
     css: styles.css
     toc: true
     page-layout: full
+
