@@ -308,69 +308,129 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- Utilidad: cada bloque .project tiene margen inferior para separar proyectos -->
+<style>
+  .project { margin: 1.25rem 0 2rem; }
+  .project h3 { display:flex; align-items:center; gap:.5rem; margin:0; font-size:1.1rem; }
+  .project .meta { margin:.35rem 0 .25rem; font-size:.95rem; }
+  .project .meta strong { font-weight:600; }
+  .project .actions { margin-top:.6rem; }
+</style>
 <!-- Proyecto 1: Póster NEKATE -->
-<p style="display: flex; align-items: center;">
-<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+<div class="project">
+<h3 class="anchored">
+<!-- shield icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M12 22s8-4 8-10V4l-8 4-8-4v8c0 6 8 10 8 10z"></path>
 </svg>
-<span class="project-title">Evaluación del Bioproducto NEKATE en <em>Zea mays</em></span>
-</p>
-<p><strong>Fecha:</strong> 4 de julio de 2025<br>
-<strong>Tipo:</strong> Póster académico – Universidad Estatal de Milagro</p>
-<p>Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (<em>Zea mays</em>). Presentado en formato póster en la UNEMI.</p>
-<div style="margin-top: 10px;">
-<p><a href="https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing" target="_blank" class="btn btn-outline-primary btn-sm">Ver póster</a></p>
+<span class="project-title">Evaluación del bioproducto NEKATE en <em>Zea mays</em></span>
+</h3>
+<div class="meta">
+<strong>Fecha:</strong> 4 de julio de 2025
 </div>
-<section id="posición-autor" class="level2">
-<h2 class="anchored" data-anchor-id="posición-autor"><strong>Posición:</strong> Autor</h2>
+<div class="meta">
+<strong>Tipo:</strong> Póster académico – Universidad Estatal de Milagro
+</div>
+<p>
+Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (<em>Zea mays</em>). Presentado en formato póster en la UNEMI.
+</p>
+<div class="actions">
+<pre><code>&lt;a href="https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm"&gt;Ver póster&lt;/a&gt;</code></pre>
+</div>
+<!-- Espacio claro antes de Posición -->
+<p style="margin-top:.75rem;">
+<strong>Posición:</strong> Autor
+</p>
+</div>
+<hr>
 <!-- Proyecto 2: Artículo de Ingeniería de Proteínas -->
-<p style="display: flex; align-items: center;">
-<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+<div class="project">
+<h3 class="anchored">
+<!-- monitor icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path> <path d="M4 4h16v16H4z"></path>
 </svg>
-<span class="project-title">Ingeniería de Proteínas para el Desarrollo de Vacunas Sintéticas</span>
-</p>
-<p><strong>Fecha:</strong> 27 de agosto de 2025<br>
-<strong>Tipo:</strong> Artículo de investigación – Polo del Conocimiento (Vol. 10, No.&nbsp;8)</p>
-<p>Artículo de investigación que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.<br>
-<strong>Posición:</strong> Segundo autor<br>
-<strong>Herramientas utilizadas:</strong> Scopus</p>
-<div style="margin-top: 10px;">
-<p><a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" class="btn btn-outline-primary btn-sm">Leer artículo</a></p>
+<span class="project-title">Ingeniería de proteínas para el desarrollo de vacunas sintéticas</span>
+</h3>
+<div class="meta">
+<strong>Fecha:</strong> 27 de agosto de 2025
 </div>
-<!-- Proyecto 4: Derivados de Grafeno -->
-<p style="display: flex; align-items: center;">
-<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+<div class="meta">
+<strong>Tipo:</strong> Artículo de investigación – Polo del Conocimiento (Vol. 10, No.&nbsp;8)
+</div>
+<p>
+Análisis de avances en ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.
+</p>
+<div class="actions">
+<pre><code>&lt;a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm"&gt;Leer artículo&lt;/a&gt;</code></pre>
+</div>
+<p style="margin-top:.75rem;">
+<strong>Posición:</strong> Segundo autor
+</p>
+<div class="meta">
+<strong>Herramientas utilizadas:</strong> Scopus
+</div>
+</div>
+<hr>
+<!-- Proyecto 3: Derivados de Grafeno (2010–2024) -->
+<div class="project">
+<h3 class="anchored">
+<!-- bar chart icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M4 4h16v16H4z"></path> <line x1="8" y1="14" x2="8" y2="10"></line> <line x1="12" y1="14" x2="12" y2="8"></line> <line x1="16" y1="14" x2="16" y2="12"></line>
 </svg>
 <span class="project-title">Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)</span>
+</h3>
+<div class="meta">
+<strong>Fecha:</strong> En revisión
+</div>
+<div class="meta">
+<strong>Tipo:</strong> Estudio bibliométrico – Universidad de Guayaquil
+</div>
+<p>
+Estudio sobre óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de <em>revisión</em> para su presentación en un congreso académico en la Universidad de Guayaquil (Ecuador).
 </p>
-<p><strong>Fecha:</strong> En revisión<br>
-<strong>Tipo:</strong> Estudio bibliométrico – Universidad de Guayaquil</p>
-<p>Estudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisón para su presentación en un congreso académico en la Universidad de Guayaquil en Ecuador.<br>
-<strong>Posición:</strong> Segundo autor <strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix.</p>
-<div style="margin-top: 10px;">
-<p><span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span></p>
+<div class="actions">
+<pre><code>&lt;span class="btn btn-outline-secondary btn-sm disabled"&gt;Manuscrito en progreso&lt;/span&gt;</code></pre>
+</div>
+<p style="margin-top:.75rem;">
+<strong>Posición:</strong> Segundo autor
+</p>
+<div class="meta">
+<strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix
+</div>
 </div>
 <hr>
-<!-- Proyecto 4 : Análisis Bibliométrico -->
-<p style="display: flex; align-items: center;">
-<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+<!-- Proyecto 4: Interacción grafeno–bacteria -->
+<div class="project">
+<h3 class="anchored">
+<!-- ascending bars icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M3 3v18h18"></path> <rect x="7" y="12" width="3" height="6"></rect> <rect x="12" y="9" width="3" height="9"></rect> <rect x="17" y="6" width="3" height="12"></rect>
 </svg>
 <span class="project-title">Análisis bibliométrico del impacto del grafeno en la interacción bacteria–material</span>
-</p>
-<p><strong>Fecha:</strong> En progreso<br>
-<strong>Tipo:</strong> Estudio bibliométrico</p>
-<p>Este estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.<br>
-<strong>Posición:</strong> Segundo autor <strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix.</p>
-<div style="margin-top: 10px;">
-<p><span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span></p>
+</h3>
+<div class="meta">
+<strong>Fecha:</strong> En progreso
 </div>
-<hr>
+<div class="meta">
+<strong>Tipo:</strong> Estudio bibliométrico
+</div>
+<p>
+Explora la interacción entre el grafeno y sistemas bacterianos, con foco en tendencias, contribuciones clave y perspectivas futuras.
+</p>
+<div class="actions">
+<pre><code>&lt;span class="btn btn-outline-secondary btn-sm disabled"&gt;Manuscrito en progreso&lt;/span&gt;</code></pre>
+</div>
+<p style="margin-top:.75rem;">
+<strong>Posición:</strong> Segundo autor
+</p>
+<div class="meta">
+<strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

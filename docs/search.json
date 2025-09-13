@@ -100,21 +100,21 @@
   {
     "objectID": "sobre-mi.html#educación",
     "href": "sobre-mi.html#educación",
-    "title": "Ignacio Isa Vargas",
+    "title": "Ignacio",
     "section": "Educación",
     "text": "Educación\n\n\n  \n\nIngeniería en Biotecnología (en curso)\n\n\nUniversidad Estatal de Milagro (UNEMI)"
   },
   {
     "objectID": "sobre-mi.html#experiencia",
     "href": "sobre-mi.html#experiencia",
-    "title": "Ignacio Isa Vargas",
+    "title": "Ignacio",
     "section": "Experiencia",
-    "text": "Experiencia\n\nDocente de matemáticas y biología a nivel bachillerato.\nConsultor en análisis de datos, asesoro a estudiantes en el uso de R, Python y LaTeX para proyectos académicos.\nAyudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en sesiones de laboratorio y talleres académicos.\nExperiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos."
+    "text": "Experiencia\n\nDocente de matemáticas y biología a nivel bachillerato.\nConsultor en análisis de datos, asesoro en el uso de R, Python y LaTeX para proyectos académicos.\nAyudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en laboratorio y talleres académicos.\nExperiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos."
   },
   {
     "objectID": "sobre-mi.html#lenguajes-y-herramientas",
     "href": "sobre-mi.html#lenguajes-y-herramientas",
-    "title": "Ignacio Isa Vargas",
+    "title": "Ignacio",
     "section": "Lenguajes y herramientas",
     "text": "Lenguajes y herramientas\n\n Python – Intermedio\n\n\n R – Intermedio\n\n\n LaTeX – Intermedio"
   },
@@ -123,7 +123,7 @@
     "href": "proyectos.html",
     "title": "Proyectos",
     "section": "",
-    "text": "Evaluación del Bioproducto NEKATE en Zea mays\nFecha: 4 de julio de 2025\nTipo: Póster académico – Universidad Estatal de Milagro\nProyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (Zea mays). Presentado en formato póster en la UNEMI."
+    "text": "Evaluación del bioproducto NEKATE en Zea mays\n\n\nFecha: 4 de julio de 2025\n\n\nTipo: Póster académico – Universidad Estatal de Milagro\n\n\nProyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (Zea mays). Presentado en formato póster en la UNEMI.\n\n\n&lt;a href=\"https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-outline-primary btn-sm\"&gt;Ver póster&lt;/a&gt;\n\n\n\nPosición: Autor\n\n\n\n\n\n\n\n\n \n\nIngeniería de proteínas para el desarrollo de vacunas sintéticas\n\n\nFecha: 27 de agosto de 2025\n\n\nTipo: Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)\n\n\nAnálisis de avances en ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.\n\n\n&lt;a href=\"http://polodelconocimiento.com/ojs/index.php/es/article/view/10261\" target=\"_blank\" rel=\"noopener\" class=\"btn btn-outline-primary btn-sm\"&gt;Leer artículo&lt;/a&gt;\n\n\nPosición: Segundo autor\n\n\nHerramientas utilizadas: Scopus\n\n\n\n\n\n\n\n\n   \n\nAnálisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)\n\n\nFecha: En revisión\n\n\nTipo: Estudio bibliométrico – Universidad de Guayaquil\n\n\nEstudio sobre óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisión para su presentación en un congreso académico en la Universidad de Guayaquil (Ecuador).\n\n\n&lt;span class=\"btn btn-outline-secondary btn-sm disabled\"&gt;Manuscrito en progreso&lt;/span&gt;\n\n\nPosición: Segundo autor\n\n\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix\n\n\n\n\n\n\n\n\n   \n\nAnálisis bibliométrico del impacto del grafeno en la interacción bacteria–material\n\n\nFecha: En progreso\n\n\nTipo: Estudio bibliométrico\n\n\nExplora la interacción entre el grafeno y sistemas bacterianos, con foco en tendencias, contribuciones clave y perspectivas futuras.\n\n\n&lt;span class=\"btn btn-outline-secondary btn-sm disabled\"&gt;Manuscrito en progreso&lt;/span&gt;\n\n\nPosición: Segundo autor\n\n\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix"
   },
   {
     "objectID": "proyectos.html#posición-autor",
