@@ -9,118 +9,101 @@ format:
     toc: false
 ---
 
-<!-- Utilidad: cada bloque .project tiene margen inferior para separar proyectos -->
+<!-- ==== ESTILOS ==== -->
 <style>
-  .project { margin: 1.25rem 0 2rem; }
-  .project h3 { display:flex; align-items:center; gap:.5rem; margin:0; font-size:1.1rem; }
-  .project .meta { margin:.35rem 0 .25rem; font-size:.95rem; }
-  .project .meta strong { font-weight:600; }
-  .project .actions { margin-top:.6rem; }
+  .projects-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .project {
+    border: 1px solid #dee2e6;
+    border-radius: .75rem;
+    padding: 1rem 1.25rem;
+    background-color: var(--bs-body-bg);
+    box-shadow: 0 2px 5px rgba(0,0,0,.05);
+  }
+  .project h3 {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.05rem;
+    margin: 0 0 .5rem;
+  }
+  .project .meta { font-size: .95rem; margin-bottom: .2rem; }
+  .project .meta strong { font-weight: 600; }
+  .project .actions { margin-top: .75rem; }
+  .project p { margin: .4rem 0; }
 </style>
 
-<!-- Proyecto 1: Póster NEKATE -->
+<div class="projects-grid">
+
+<!-- Proyecto 1 -->
 <div class="project">
   <h3>
-    <!-- shield icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M12 22s8-4 8-10V4l-8 4-8-4v8c0 6 8 10 8 10z"/>
-    </svg>
-    <span class="project-title">Evaluación del bioproducto NEKATE en <em>Zea mays</em></span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V4l-8 4-8-4v8c0 6 8 10 8 10z"/></svg>
+    Evaluación del bioproducto NEKATE en <em>Zea mays</em>
   </h3>
-
   <div class="meta"><strong>Fecha:</strong> 4 de julio de 2025</div>
   <div class="meta"><strong>Tipo:</strong> Póster académico – Universidad Estatal de Milagro</div>
-
   <p>Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (<em>Zea mays</em>). Presentado en formato póster en la UNEMI.</p>
-
   <div class="actions">
     <a href="https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">Ver póster</a>
   </div>
-
-  <!-- Espacio claro antes de Posición -->
   <p style="margin-top:.75rem;"><strong>Posición:</strong> Autor</p>
 </div>
 
----
-
-<!-- Proyecto 2: Artículo de Ingeniería de Proteínas -->
+<!-- Proyecto 2 -->
 <div class="project">
   <h3>
-    <!-- monitor icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-      <path d="M4 4h16v16H4z"/>
-    </svg>
-    <span class="project-title">Ingeniería de proteínas para el desarrollo de vacunas sintéticas</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4h16v16H4z"/></svg>
+    Ingeniería de proteínas para el desarrollo de vacunas sintéticas
   </h3>
-
   <div class="meta"><strong>Fecha:</strong> 27 de agosto de 2025</div>
   <div class="meta"><strong>Tipo:</strong> Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)</div>
-
   <p>Análisis de avances en ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.</p>
-
   <div class="actions">
     <a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm">Leer artículo</a>
   </div>
-
   <p style="margin-top:.75rem;"><strong>Posición:</strong> Segundo autor</p>
   <div class="meta"><strong>Herramientas utilizadas:</strong> Scopus</div>
 </div>
 
----
-
-<!-- Proyecto 3: Derivados de Grafeno (2010–2024) -->
+<!-- Proyecto 3 -->
 <div class="project">
   <h3>
-    <!-- bar chart icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M4 4h16v16H4z"/>
-      <line x1="8" y1="14" x2="8" y2="10"/>
-      <line x1="12" y1="14" x2="12" y2="8"/>
-      <line x1="16" y1="14" x2="16" y2="12"/>
-    </svg>
-    <span class="project-title">Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><line x1="8" y1="14" x2="8" y2="10"/><line x1="12" y1="14" x2="12" y2="8"/><line x1="16" y1="14" x2="16" y2="12"/></svg>
+    Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)
   </h3>
-
   <div class="meta"><strong>Fecha:</strong> En revisión</div>
   <div class="meta"><strong>Tipo:</strong> Estudio bibliométrico – Universidad de Guayaquil</div>
-
   <p>Estudio sobre óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de <em>revisión</em> para su presentación en un congreso académico en la Universidad de Guayaquil (Ecuador).</p>
-
   <div class="actions">
     <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
   </div>
-
   <p style="margin-top:.75rem;"><strong>Posición:</strong> Segundo autor</p>
   <div class="meta"><strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix</div>
 </div>
 
----
-
-<!-- Proyecto 4: Interacción grafeno–bacteria -->
+<!-- Proyecto 4 -->
 <div class="project">
   <h3>
-    <!-- ascending bars icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M3 3v18h18"/>
-      <rect x="7" y="12" width="3" height="6"/>
-      <rect x="12" y="9" width="3" height="9"/>
-      <rect x="17" y="6" width="3" height="12"/>
-    </svg>
-    <span class="project-title">Análisis bibliométrico del impacto del grafeno en la interacción bacteria–material</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="9" width="3" height="9"/><rect x="17" y="6" width="3" height="12"/></svg>
+    Análisis bibliométrico del impacto del grafeno en la interacción bacteria–material
   </h3>
-
   <div class="meta"><strong>Fecha:</strong> En progreso</div>
   <div class="meta"><strong>Tipo:</strong> Estudio bibliométrico</div>
-
   <p>Explora la interacción entre el grafeno y sistemas bacterianos, con foco en tendencias, contribuciones clave y perspectivas futuras.</p>
-
   <div class="actions">
     <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
   </div>
-
   <p style="margin-top:.75rem;"><strong>Posición:</strong> Segundo autor</p>
   <div class="meta"><strong>Herramientas utilizadas:</strong> Scopus, VOSviewer, Bibliometrix</div>
 </div>
 
+</div>
 
