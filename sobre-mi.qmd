@@ -33,16 +33,19 @@ format:
 
 ## Experiencia
 
-- Imparto clases de matemáticas y biología a nivel bachillerato en un centro académico, ofreciendo enseñanza personalizada y evaluación.
-- Como consultor independiente de investigación, apoyo a estudiantes de pregrado en diseño experimental, análisis de datos y redacción científica con R, Python y LaTeX.
-- Fui asistente de docencia en la asignatura de Química Física en UNEMI, colaborando en sesiones de laboratorio y talleres académicos.
-- También adquirí experiencia práctica en laboratorio, preparando muestras biológicas y apoyando procedimientos clínicos en un centro médico.
+- Docente de matemáticas y biología a nivel bachillerato.
+
+- Consultor en análisis de datos, asesoro a estudiantes en el uso de R, Python y LaTeX para proyectos académicos.
+
+- Ayudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en sesiones de laboratorio y talleres académicos.
+
+- Experiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos.
 
 ## Lenguajes y herramientas
 
 <p style="display: flex; align-items: center;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="28px" style="margin-right: 8px;" />
-  Python – Básico
+  Python – Intermedio
 </p>
 
 <p style="display: flex; align-items: center;">

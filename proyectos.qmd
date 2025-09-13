@@ -20,12 +20,12 @@ format:
 **Fecha:** 4 de julio de 2025  
 **Tipo:** Póster académico – Universidad Estatal de Milagro  
 
-Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (*Zea mays*). Presentado en formato póster en la Universidad Estatal de Milagro.  
+Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (*Zea mays*). Presentado en formato póster en la UNEMI.  
 
 <div style="margin-top: 10px;">
   <a href="https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing" target="_blank" class="btn btn-outline-primary btn-sm">Ver póster</a>
 </div>
-
+**Posición:** Autor  
 ---
 
 <!-- Proyecto 2: Artículo de Ingeniería de Proteínas -->
@@ -40,16 +40,42 @@ Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimu
 **Fecha:** 27 de agosto de 2025  
 **Tipo:** Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)  
 
-Artículo de investigación coautor que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.  
+Artículo de investigación que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.  
 **Posición:** Segundo autor  
+**Herramientas utilizadas:** Scopus  
+
 
 <div style="margin-top: 10px;">
   <a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" class="btn btn-outline-primary btn-sm">Leer artículo</a>
 </div>
 
+
+<!-- Proyecto 4: Derivados de Grafeno -->
+<p style="display: flex; align-items: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+    <path d="M4 4h16v16H4z" />
+    <line x1="8" y1="14" x2="8" y2="10" />
+    <line x1="12" y1="14" x2="12" y2="8" />
+    <line x1="16" y1="14" x2="16" y2="12" />
+  </svg>
+  <span class="project-title">Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)</span>
+</p>
+
+**Fecha:** En revisión  
+**Tipo:** Estudio bibliométrico – Universidad de Guayaquil  
+
+Estudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisón para su presentación en un congreso académico en la Universidad de Guayaquil en Ecuador.  
+**Posición:** Segundo autor 
+**Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
+
+<div style="margin-top: 10px;">
+  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
+</div>
+
+
 ---
 
-<!-- Proyecto 3: Análisis Bibliométrico -->
+<!-- Proyecto 4 : Análisis Bibliométrico -->
 <p style="display: flex; align-items: center;">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
     <path d="M3 3v18h18" />
@@ -64,7 +90,7 @@ Artículo de investigación coautor que analiza los avances en la ingeniería de
 **Tipo:** Estudio bibliométrico  
 
 Este estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.  
-
+**Posición:** Segundo autor 
 **Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
 
 <div style="margin-top: 10px;">
@@ -72,27 +98,5 @@ Este estudio explora la interacción entre el grafeno y los sistemas bacterianos
 </div>
 
 ---
-
-<!-- Proyecto 4: Derivados de Grafeno -->
-<p style="display: flex; align-items: center;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
-    <path d="M4 4h16v16H4z" />
-    <line x1="8" y1="14" x2="8" y2="10" />
-    <line x1="12" y1="14" x2="12" y2="8" />
-    <line x1="16" y1="14" x2="16" y2="12" />
-  </svg>
-  <span class="project-title">Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)</span>
-</p>
-
-**Fecha:** En progreso  
-**Tipo:** Estudio bibliométrico – Universidad de Guayaquil  
-
-Estudio en curso sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito se está preparando para su presentación en un congreso académico en la Universidad de Guayaquil.  
-
-**Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
-
-<div style="margin-top: 10px;">
-  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
-</div>
 
 
