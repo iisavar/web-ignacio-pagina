@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Ignacio Isa Vargas",
     "section": "",
-    "text": "Hi, welcome to my personal webpage!\nI’m Ignacio, a Biotechnology student at the State University of Milagro. I specialize in data analysis, experimental design, and science education.\nCurrently, I’m working on research projects involving graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research."
+    "text": "¡Hola! Bienvenido a mi página web personal.\nSoy Ignacio, estudiante de Biotecnología en la Universidad Estatal de Milagro. Me especializo en análisis de datos, diseño experimental y educación científica.\nActualmente participo en proyectos de investigación relacionados con grafeno y bioproductos, con un fuerte interés en estadística aplicada, bioinformática e investigación interdisciplinaria."
   },
   {
     "objectID": "research/project-1.html",
@@ -96,5 +96,33 @@
     "title": "Ignacio Isa Vargas",
     "section": "Lenguajes y herramientas",
     "text": "Lenguajes y herramientas\n\n Python – Básico\n\n\n R – Intermedio\n\n\n LaTeX – Intermedio"
+  },
+  {
+    "objectID": "sobre-mi.html#educación",
+    "href": "sobre-mi.html#educación",
+    "title": "Ignacio Isa Vargas",
+    "section": "Educación",
+    "text": "Educación\n\n\n  \n\nIngeniería en Biotecnología (en curso)\n\n\nUniversidad Estatal de Milagro (UNEMI)"
+  },
+  {
+    "objectID": "sobre-mi.html#experiencia",
+    "href": "sobre-mi.html#experiencia",
+    "title": "Ignacio Isa Vargas",
+    "section": "Experiencia",
+    "text": "Experiencia\n\nImparto clases de matemáticas y biología a nivel bachillerato en un centro académico, ofreciendo enseñanza personalizada y evaluación.\nComo consultor independiente de investigación, apoyo a estudiantes de pregrado en diseño experimental, análisis de datos y redacción científica con R, Python y LaTeX.\nFui asistente de docencia en la asignatura de Química Física en UNEMI, colaborando en sesiones de laboratorio y talleres académicos.\nTambién adquirí experiencia práctica en laboratorio, preparando muestras biológicas y apoyando procedimientos clínicos en un centro médico."
+  },
+  {
+    "objectID": "sobre-mi.html#lenguajes-y-herramientas",
+    "href": "sobre-mi.html#lenguajes-y-herramientas",
+    "title": "Ignacio Isa Vargas",
+    "section": "Lenguajes y herramientas",
+    "text": "Lenguajes y herramientas\n\n Python – Básico\n\n\n R – Intermedio\n\n\n LaTeX – Intermedio"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Evaluación del Bioproducto NEKATE en Zea mays\n\nFecha: 4 de julio de 2025\nTipo: Póster académico – Universidad Estatal de Milagro\nProyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (Zea mays). Presentado en formato póster en la Universidad Estatal de Milagro.\n\nVer póster\n\n\n\n\n\n \n\nIngeniería de Proteínas para el Desarrollo de Vacunas Sintéticas\n\nFecha: 27 de agosto de 2025\nTipo: Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)\nArtículo de investigación coautor que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.\nPosición: Segundo autor\n\nLeer artículo\n\n\n\n\n\n   \n\nAnálisis bibliométrico del impacto del grafeno en la interacción bacteria–material\n\nFecha: En progreso\nTipo: Estudio bibliométrico\nEste estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso\n\n\n\n\n\n   \n\nAnálisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)\n\nFecha: En progreso\nTipo: Estudio bibliométrico – Universidad de Guayaquil\nEstudio en curso sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito se está preparando para su presentación en un congreso académico en la Universidad de Guayaquil.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso"
   }
 ]

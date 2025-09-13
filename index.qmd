@@ -1,6 +1,6 @@
 ---
 title: "Ignacio Isa Vargas"
-pagetitle: "Home"
+pagetitle: "Inicio"
 about:
   template: jolla
   image: foto_ignacio.jpg
@@ -27,10 +27,9 @@ format:
     body-class: index-jolla-page
 ---
 
+¡Hola! Bienvenido a mi página web personal.  
 
-Hi, welcome to my personal webpage!  
+Soy Ignacio, estudiante de Biotecnología en la Universidad Estatal de Milagro. Me especializo en análisis de datos, diseño experimental y educación científica.  
 
-I'm Ignacio, a Biotechnology student at the State University of Milagro. I specialize in data analysis, experimental design, and science education. 
-
-Currently, I’m working on research projects involving graphene and bioproducts, with a strong interest in applied statistics, bioinformatics, and interdisciplinary research.
+Actualmente participo en proyectos de investigación relacionados con grafeno y bioproductos, con un fuerte interés en estadística aplicada, bioinformática e investigación interdisciplinaria.  
 

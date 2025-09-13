@@ -2,35 +2,15 @@
 title: "Ignacio Isa Vargas"
 pagetitle: "Sobre mí"
 subtitle: "Apasionado por la investigación y la docencia"
-lang: es
 about:
   template: trestles
-  image: ../foto_ignacio.jpg
-
-navbar:
-  left:
-    - href: es/index.qmd
-      text: Inicio
-    - href: es/sobre-mi.qmd
-      text: Sobre mí
-    - href: es/proyectos.qmd
-      text: Proyectos
-    - href: ../cv.pdf
-      text: Currículum
-  right:
-    - text: Idioma
-      menu:
-        - text: English
-          href: about.qmd
-        - text: Español
-          href: es/sobre-mi.qmd
-
+  image: foto_ignacio.jpg
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
-    css: ../styles.css
+    css: styles.css
     toc: false
 ---
 
@@ -53,10 +33,10 @@ format:
 
 ## Experiencia
 
-- Imparto clases de matemáticas y biología a nivel bachillerato en un centro académico, con enseñanza personalizada y evaluación.
+- Imparto clases de matemáticas y biología a nivel bachillerato en un centro académico, ofreciendo enseñanza personalizada y evaluación.
 - Como consultor independiente de investigación, apoyo a estudiantes de pregrado en diseño experimental, análisis de datos y redacción científica con R, Python y LaTeX.
-- Fui asistente de docencia en la asignatura de Química Física en UNEMI, colaborando en prácticas de laboratorio y talleres académicos.
-- También adquirí experiencia práctica en laboratorio preparando muestras biológicas y apoyando procedimientos clínicos en un centro médico.
+- Fui asistente de docencia en la asignatura de Química Física en UNEMI, colaborando en sesiones de laboratorio y talleres académicos.
+- También adquirí experiencia práctica en laboratorio, preparando muestras biológicas y apoyando procedimientos clínicos en un centro médico.
 
 ## Lenguajes y herramientas
 

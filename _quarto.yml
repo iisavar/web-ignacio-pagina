@@ -7,11 +7,8 @@ project:
     - images/**
   render:
     - index.qmd
-    - about.qmd
-    - projects.qmd
-    - es/index.qmd
-    - es/sobre-mi.qmd
-    - es/proyectos.qmd
+    - sobre-mi.qmd
+    - proyectos.qmd
 
 website:
   title: "Ignacio Isa"
@@ -20,20 +17,13 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About Me
-      - href: projects.qmd
-        text: Projects
+        text: Inicio
+      - href: sobre-mi.qmd
+        text: Sobre mí
+      - href: proyectos.qmd
+        text: Proyectos
       - href: cv.pdf
-        text: Curriculum Vitae
-    right:
-      - text: Language
-        menu:
-          - text: English
-            href: index.qmd
-          - text: Español
-            href: es/index.qmd
+        text: Currículum
 
 format:
   html:

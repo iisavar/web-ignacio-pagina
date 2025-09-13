@@ -1,31 +1,11 @@
 ---
 title: "Proyectos"
-lang: es
-
-navbar:
-  left:
-    - href: es/index.qmd
-      text: Inicio
-    - href: es/sobre-mi.qmd
-      text: Sobre mí
-    - href: es/proyectos.qmd
-      text: Proyectos
-    - href: ../cv.pdf
-      text: Currículum
-  right:
-    - text: Idioma
-      menu:
-        - text: English
-          href: projects.qmd
-        - text: Español
-          href: es/proyectos.qmd
-
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
-    css: ../styles.css
+    css: styles.css
     toc: false
 ---
 
@@ -60,7 +40,7 @@ Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimu
 **Fecha:** 27 de agosto de 2025  
 **Tipo:** Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)  
 
-Artículo de investigación coautor en el que se analizan los avances en ingeniería de proteínas aplicada a vacunas sintéticas, destacando retos como la estabilidad de las proteínas, la inmunogenicidad y el acceso global equitativo.  
+Artículo de investigación coautor que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.  
 **Posición:** Segundo autor  
 
 <div style="margin-top: 10px;">
@@ -83,7 +63,7 @@ Artículo de investigación coautor en el que se analizan los avances en ingenie
 **Fecha:** En progreso  
 **Tipo:** Estudio bibliométrico  
 
-Este estudio explora la interacción entre grafeno y sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones investigativas y las perspectivas futuras.  
+Este estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.  
 
 **Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
 
@@ -114,3 +94,5 @@ Estudio en curso sobre el uso de óxidos y derivados de grafeno en biotecnologí
 <div style="margin-top: 10px;">
   <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
 </div>
+
+
