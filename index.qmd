@@ -27,10 +27,8 @@ format:
     body-class: index-jolla-page
 ---
 
-¡Hola! Bienvenidos a mi página web personal.  
+Estudiante de Ingeniería en Biotecnología | Analista de Datos | Consultor Científico
 
-Soy Ignacio, un estudiante de ingeniería en biotecnología de la Universidad Estatal de Milagro (UNEMI) - Ecuador, apasionado por el análisis de datos, la bioinformática, el diseño experimental, la investigación científica y la enseñanza. 
+Trabajo en UNEMI Posgrados gestionando campañas digitales, análisis estadístico e informes de desempeño. También doy clases de biología y matemática, y asesoro en diseño experimental, análisis de datos y publicación científica.
 
-
-Actualmente participo en proyectos de investigación relacionados con grafeno y en revisiones de literatura sobre biotecnología agrícola, enfocadas en banano, plátano y cacao, cultivos que forman parte de mi día a día. Estos cultivos se ven afectados por diversas plagas y es necesario estudiarlos porque son el sustento de miles de familias ecuatorianas. 
-
+Actualmente desarrollo proyectos de investigación en bibliometría del grafeno, bioestimulantes en maíz y educación basada en datos, integrando automatización de flujos con n8n, Python y R.

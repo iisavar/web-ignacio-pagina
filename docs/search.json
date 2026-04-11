@@ -1,101 +1,45 @@
 [
   {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Artículo científico publicado en MDPI sobre Raphanus sativus L.\n\nEstado: Publicado\nTipo: Artículo científico\nTrabajo sobre plasticidad fenotípica temprana y respuesta morfofisiológica bajo fertilización in vitro en Raphanus sativus L.\n\nVer artículo"
+  },
+  {
+    "objectID": "proyectos.html#publicado",
+    "href": "proyectos.html#publicado",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Artículo científico publicado en MDPI sobre Raphanus sativus L.\n\nEstado: Publicado\nTipo: Artículo científico\nTrabajo sobre plasticidad fenotípica temprana y respuesta morfofisiológica bajo fertilización in vitro en Raphanus sativus L.\n\nVer artículo"
+  },
+  {
+    "objectID": "proyectos.html#en-redacción",
+    "href": "proyectos.html#en-redacción",
+    "title": "Proyectos",
+    "section": "En redacción",
+    "text": "En redacción\n\n\n   \n\nAnálisis bibliométrico de derivados del grafeno aplicados a la biotecnología\n\nEstado: En redacción\nTipo: Manuscrito científico\nAnálisis bibliométrico sobre derivados del grafeno aplicados a la biotecnología entre 2010 y 2024. El trabajo fue presentado en Guayaquil y continuó su proceso editorial hacia la revista EASI de la Universidad de Guayaquil.\n\nManuscrito en redacción\n\n\n\n\n\n\nBioestimulante NEKATE en Zea mays\n\nEstado: Análisis y redacción\nTipo: Manuscrito científico\nEvaluación de un elicitor bioestimulante en maíz bajo un diseño de bloques, enfocada en la respuesta vegetativa temprana y el comportamiento de distintas dosis.\n\nResultados en preparación\n\n\n\n\n   \n\nPISA 2022: recursos digitales en el hogar y logro académico\n\nEstado: Listo para envio\nTipo: Artículo científico\nEstudio con datos de PISA 2022 sobre recursos digitales en el hogar y rendimiento académico, orientado a una revista abierta del área de educación.\n\nManuscrito listo para envío"
+  },
+  {
+    "objectID": "proyectos.html#congresos-y-ponencias",
+    "href": "proyectos.html#congresos-y-ponencias",
+    "title": "Proyectos",
+    "section": "Congresos y ponencias",
+    "text": "Congresos y ponencias\n\n\n   \n\nCOLIM 2026\n\nEstado: Aceptado\nTipo: Congreso académico\nParticipación con un trabajo sobre carbon fiber tubes en el X Congreso Latinoamericano de Ingeniería Mecánica.\n\nPonencia aceptada\n\n\n\n\n   \n\nCIMIT 2025\n\nEstado: Presentado\nTipo: Congreso académico\nPonencia presentada en CIMIT 2025. El desempeño del trabajo permitió su proyección editorial posterior en la revista EASI de la Universidad de Guayaquil.\n\nPresentación realizada"
+  },
+  {
+    "objectID": "proyectos.html#otras-publicaciones",
+    "href": "proyectos.html#otras-publicaciones",
+    "title": "Proyectos",
+    "section": "Otras publicaciones",
+    "text": "Otras publicaciones\n\n\n \n\nIngeniería de proteínas para el desarrollo de vacunas sintéticas\n\nEstado: Publicado\nTipo: Artículo de investigación\nArtículo sobre ingeniería de proteínas aplicada al desarrollo de vacunas sintéticas. Participación como segundo autor.\n\nLeer artículo"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ignacio Isa Vargas",
     "section": "",
-    "text": "¡Hola! Bienvenidos a mi página web personal.\nSoy Ignacio, un estudiante de ingeniería en biotecnología de la Universidad Estatal de Milagro (UNEMI) - Ecuador, apasionado por el análisis de datos, la bioinformática, el diseño experimental, la investigación científica y la enseñanza.\nActualmente participo en proyectos de investigación relacionados con grafeno y en revisiones de literatura sobre biotecnología agrícola, enfocadas en banano, plátano y cacao, cultivos que forman parte de mi día a día. Estos cultivos se ven afectados por diversas plagas y es necesario estudiarlos porque son el sustento de miles de familias ecuatorianas."
-  },
-  {
-    "objectID": "research/project-1.html",
-    "href": "research/project-1.html",
-    "title": "My First Project",
-    "section": "",
-    "text": "A description of my project.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "All of my research projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Paper\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\nSimone , Matthew DeHaven\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Project\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nSimone\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Ignacio Isa Vargas\n\nMilagro, Ecuador\n\n\n  \n  \n  \n  \n\n\nPassionate about applied statistics, scientific research, and academic teaching."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Ignacio Isa Vargas",
-    "section": "Education",
-    "text": "Education\n\n\n  \n\nB.Sc. in Biotechnology Engineering (in progress)\n\n\nState University of Milagro"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Ignacio Isa Vargas",
-    "section": "Experience",
-    "text": "Experience\n\nI teach high school mathematics and biology at an academic center, providing personalized instruction and evaluation.\nAs an independent research consultant, I support undergraduate students with experimental design, data analysis, and scientific writing using R, Python, and LaTeX.\nI served as a teaching assistant for the Physical Chemistry course at UNEMI, assisting in lab sessions and academic workshops.\nI also gained practical lab experience by preparing biological samples and supporting clinical procedures at a medical center."
-  },
-  {
-    "objectID": "about.html#languages-and-tools",
-    "href": "about.html#languages-and-tools",
-    "title": "Ignacio Isa Vargas",
-    "section": "Languages and Tools",
-    "text": "Languages and Tools\n\n Python – Basic\n\n\n R – Intermediate\n\n\n LaTeX – Intermediate"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Evaluation of the NEKATE Bioproduct in Zea mays\n\nDate: July 4, 2025\nType: Academic Poster – State University of Milagro\nExperimental project evaluating NEKATE as a sustainable bioinsecticide and plant growth stimulant in maize (Zea mays). Presented in poster format at the State University of Milagro.\n\nView Poster\n\n\n\n\n\n\n \n\nProtein Engineering for the Development of Synthetic Vaccines\n\nDate: August 27, 2025\nType: Research Article – Polo del Conocimiento (Vol. 10, No. 8)\nCo-authored research article analyzing advances in protein engineering applied to synthetic vaccines, highlighting challenges such as protein stability, immunogenicity, and equitable global access.\nPosition: Second Author\n\nRead Article\n\n\n\n\n\n\n   \n\nBibliometric Analysis of the Impact of Graphene on Bacteria–Material Interaction\n\nDate: In Progress\nType: Bibliometric Study\nThis study explores the interaction between graphene and bacterial systems, focusing on scientific trends, research contributions, and future perspectives.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress\n\n\n\n\n\n\n   \n\nBibliometric Analysis of Graphene Derivatives Applied to Biotechnology (2010–2024)\n\nDate: In Progress\nType: Bibliometric Study – University of Guayaquil\nOngoing study on the use of graphene oxides and derivatives in biotechnology. The manuscript is currently being prepared for presentation at an academic conference at the University of Guayaquil.\nTools used: Scopus, VOSviewer, Bibliometrix.\n\nManuscript in Progress"
-  },
-  {
-    "objectID": "research/paper-1.html",
-    "href": "research/paper-1.html",
-    "title": "My First Paper",
-    "section": "",
-    "text": "A description of my paper.\nCould include a photo, or links, or anything at all!"
-  },
-  {
-    "objectID": "es/index.html",
-    "href": "es/index.html",
-    "title": "Ignacio Isa Vargas",
-    "section": "",
-    "text": "¡Hola! Bienvenido a mi página web personal.\nSoy Ignacio, estudiante de Biotecnología en la Universidad Estatal de Milagro. Me especializo en análisis de datos, diseño experimental y educación científica.\nActualmente participo en proyectos de investigación relacionados con grafeno y bioproductos, con un fuerte interés en estadística aplicada, bioinformática e investigación interdisciplinaria."
-  },
-  {
-    "objectID": "es/proyectos.html",
-    "href": "es/proyectos.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "Evaluación del Bioproducto NEKATE en Zea mays\n\nFecha: 4 de julio de 2025\nTipo: Póster académico – Universidad Estatal de Milagro\nProyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (Zea mays). Presentado en formato póster en la Universidad Estatal de Milagro.\n\nVer póster\n\n\n\n\n\n \n\nIngeniería de Proteínas para el Desarrollo de Vacunas Sintéticas\n\nFecha: 27 de agosto de 2025\nTipo: Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)\nArtículo de investigación coautor en el que se analizan los avances en ingeniería de proteínas aplicada a vacunas sintéticas, destacando retos como la estabilidad de las proteínas, la inmunogenicidad y el acceso global equitativo.\nPosición: Segundo autor\n\nLeer artículo\n\n\n\n\n\n   \n\nAnálisis bibliométrico del impacto del grafeno en la interacción bacteria–material\n\nFecha: En progreso\nTipo: Estudio bibliométrico\nEste estudio explora la interacción entre grafeno y sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones investigativas y las perspectivas futuras.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso\n\n\n\n\n\n   \n\nAnálisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)\n\nFecha: En progreso\nTipo: Estudio bibliométrico – Universidad de Guayaquil\nEstudio en curso sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito se está preparando para su presentación en un congreso académico en la Universidad de Guayaquil.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso"
-  },
-  {
-    "objectID": "es/sobre-mi.html#educación",
-    "href": "es/sobre-mi.html#educación",
-    "title": "Ignacio Isa Vargas",
-    "section": "Educación",
-    "text": "Educación\n\n\n  \n\nIngeniería en Biotecnología (en curso)\n\n\nUniversidad Estatal de Milagro (UNEMI)"
-  },
-  {
-    "objectID": "es/sobre-mi.html#experiencia",
-    "href": "es/sobre-mi.html#experiencia",
-    "title": "Ignacio Isa Vargas",
-    "section": "Experiencia",
-    "text": "Experiencia\n\nImparto clases de matemáticas y biología a nivel bachillerato en un centro académico, con enseñanza personalizada y evaluación.\nComo consultor independiente de investigación, apoyo a estudiantes de pregrado en diseño experimental, análisis de datos y redacción científica con R, Python y LaTeX.\nFui asistente de docencia en la asignatura de Química Física en UNEMI, colaborando en prácticas de laboratorio y talleres académicos.\nTambién adquirí experiencia práctica en laboratorio preparando muestras biológicas y apoyando procedimientos clínicos en un centro médico."
-  },
-  {
-    "objectID": "es/sobre-mi.html#lenguajes-y-herramientas",
-    "href": "es/sobre-mi.html#lenguajes-y-herramientas",
-    "title": "Ignacio Isa Vargas",
-    "section": "Lenguajes y herramientas",
-    "text": "Lenguajes y herramientas\n\n Python – Básico\n\n\n R – Intermedio\n\n\n LaTeX – Intermedio"
+    "text": "Estudiante de Ingeniería en Biotecnología | Analista de Datos | Consultor Científico\nTrabajo en UNEMI Posgrados gestionando campañas digitales, análisis estadístico e informes de desempeño. También doy clases de biología y matemática, y asesoro en diseño experimental, análisis de datos y publicación científica.\nActualmente desarrollo proyectos de investigación en bibliometría del grafeno, bioestimulantes en maíz y educación basada en datos, integrando automatización de flujos con n8n, Python y R."
   },
   {
     "objectID": "sobre-mi.html#educación",
@@ -109,27 +53,13 @@
     "href": "sobre-mi.html#experiencia",
     "title": "Ignacio",
     "section": "Experiencia",
-    "text": "Experiencia\n\nDocente de matemáticas y biología a nivel bachillerato.\nConsultor en análisis de datos, asesoro en el uso de R, Python y LaTeX para proyectos académicos.\nAyudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en laboratorio y talleres académicos.\nExperiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos."
+    "text": "Experiencia\n\nAnalista de datos en UNEMI Posgrados, con gestión de campañas digitales, seguimiento de métricas y elaboración de informes de desempeño.\nDocente de matemáticas y biología a nivel bachillerato.\nConsultor científico en diseño experimental, análisis de datos y redacción de artículos académicos.\nAutomatización de flujos de trabajo con n8n, Python y R para reportes, integraciones y procesos de análisis."
   },
   {
     "objectID": "sobre-mi.html#lenguajes-y-herramientas",
     "href": "sobre-mi.html#lenguajes-y-herramientas",
     "title": "Ignacio",
     "section": "Lenguajes y herramientas",
-    "text": "Lenguajes y herramientas\n\n Python – Intermedio\n\n\n R – Intermedio\n\n\n LaTeX – Intermedio"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "Evaluación del Bioproducto NEKATE en Zea mays\n\nFecha: 4 de julio de 2025\nTipo: Póster académico – Universidad Estatal de Milagro\nProyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (Zea mays). Presentado en formato póster en la UNEMI.\n\nVer póster\n\n\n\n\n\n \n\nIngeniería de Proteínas para el Desarrollo de Vacunas Sintéticas\n\nFecha: 27 de agosto de 2025\nTipo: Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)\nArtículo de investigación que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.\nPosición: Segundo autor\n\nLeer artículo\n\n\n\n\n   \n\nAnálisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)\n\nFecha: En revisión\nTipo: Estudio bibliométrico – Universidad de Guayaquil\nEstudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisón para su presentación en un congreso académico en la Universidad de Guayaquil en Ecuador.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso\n\n\n\n\n\n   \n\nAnálisis bibliométrico del impacto del grafeno en la interacción bacteria–material\n\nFecha: En progreso\nTipo: Estudio bibliométrico\nEste estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.\nHerramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso"
-  },
-  {
-    "objectID": "proyectos.html#posición-autor",
-    "href": "proyectos.html#posición-autor",
-    "title": "Proyectos",
-    "section": "Posición: Autor",
-    "text": "Posición: Autor\n\n\n\n \n\nIngeniería de Proteínas para el Desarrollo de Vacunas Sintéticas\n\nFecha: 27 de agosto de 2025\nTipo: Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)\nArtículo de investigación que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.\nPosición: Segundo autor\nHerramientas utilizadas: Scopus\n\nLeer artículo\n\n\n\n\n   \n\nAnálisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)\n\nFecha: En revisión\nTipo: Estudio bibliométrico – Universidad de Guayaquil\nEstudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisón para su presentación en un congreso académico en la Universidad de Guayaquil en Ecuador.\nPosición: Segundo autor Herramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso\n\n\n\n\n\n   \n\nAnálisis bibliométrico del impacto del grafeno en la interacción bacteria–material\n\nFecha: En progreso\nTipo: Estudio bibliométrico\nEste estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.\nPosición: Segundo autor Herramientas utilizadas: Scopus, VOSviewer, Bibliometrix.\n\nManuscrito en progreso"
+    "text": "Lenguajes y herramientas\nTrabajo principalmente con Python, R, SQL y LaTeX para análisis, automatización y escritura técnica.\nTambién utilizo Power BI, Meta Ads, Supabase y n8n para dashboards, integraciones y seguimiento de datos."
   }
 ]

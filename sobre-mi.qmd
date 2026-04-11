@@ -1,7 +1,7 @@
 ---
 title: "Ignacio"
 pagetitle: "Sobre mí"
-subtitle: "Un apasionado por la investigación agrícola y la docencia"
+subtitle: "Biotecnología, datos e investigación aplicada"
 about:
   template: trestles
   image: foto_ignacio.jpg
@@ -33,27 +33,16 @@ format:
 
 ## Experiencia
 
+- Analista de datos en UNEMI Posgrados, con gestión de campañas digitales, seguimiento de métricas y elaboración de informes de desempeño.
+
 - Docente de matemáticas y biología a nivel bachillerato.
 
-- Consultor en análisis de datos, asesoro en el uso de R, Python y LaTeX para proyectos académicos.
+- Consultor científico en diseño experimental, análisis de datos y redacción de artículos académicos.
 
-- Ayudante de cátedra en la asignatura de fisicoquímica en la UNEMI, colaborando en laboratorio y talleres académicos.
-
-- Experiencia práctica en laboratorio, preparando muestras biológicas y dando apoyo en procedimientos clínicos.
+- Automatización de flujos de trabajo con n8n, Python y R para reportes, integraciones y procesos de análisis.
 
 ## Lenguajes y herramientas
 
-<p style="display: flex; align-items: center;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="28px" style="margin-right: 8px;" />
-  Python – Intermedio
-</p>
+Trabajo principalmente con Python, R, SQL y LaTeX para análisis, automatización y escritura técnica.
 
-<p style="display: flex; align-items: center;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="28px" style="margin-right: 8px;" />
-  R – Intermedio
-</p>
-
-<p style="display: flex; align-items: center;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="28px" style="margin-right: 8px;" />
-  LaTeX – Intermedio
-</p>
+También utilizo Power BI, Meta Ads, Supabase y n8n para dashboards, integraciones y seguimiento de datos.

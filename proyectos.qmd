@@ -9,47 +9,29 @@ format:
     toc: false
 ---
 
-<!-- Proyecto 1: Póster NEKATE -->
-<p style="display: flex; align-items: center;">
-  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
-    <path d="M12 22s8-4 8-10V4l-8 4-8-4v8c0 6 8 10 8 10z" />
-  </svg>
-  <span class="project-title">Evaluación del Bioproducto NEKATE en <em>Zea mays</em></span>
-</p>
+## Publicado
 
-**Fecha:** 4 de julio de 2025  
-**Tipo:** Póster académico – Universidad Estatal de Milagro  
-
-Proyecto experimental que evalúa NEKATE como bioinsecticida sostenible y estimulante del crecimiento en maíz (*Zea mays*). Presentado en formato póster en la UNEMI.  
-
-<div style="margin-top: 10px;">
-  <a href="https://drive.google.com/file/d/1QSKxDFavIhVKTG8DebzRVRmBsz760EVf/view?usp=sharing" target="_blank" class="btn btn-outline-primary btn-sm">Ver póster</a>
-</div>
-
----
-
-<!-- Proyecto 2: Artículo de Ingeniería de Proteínas -->
 <p style="display: flex; align-items: center;">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
     <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
     <path d="M4 4h16v16H4z" />
   </svg>
-  <span class="project-title">Ingeniería de Proteínas para el Desarrollo de Vacunas Sintéticas</span>
+  <span class="project-title">Artículo científico publicado en MDPI sobre <em>Raphanus sativus</em> L.</span>
 </p>
 
-**Fecha:** 27 de agosto de 2025  
-**Tipo:** Artículo de investigación – Polo del Conocimiento (Vol. 10, No. 8)  
+**Estado:** Publicado  
+**Tipo:** Artículo científico  
 
-Artículo de investigación que analiza los avances en la ingeniería de proteínas aplicada a vacunas sintéticas, destacando desafíos como la estabilidad proteica, la inmunogenicidad y el acceso equitativo a nivel global.  
-**Posición:** Segundo autor  
-
+Trabajo sobre plasticidad fenotípica temprana y respuesta morfofisiológica bajo fertilización in vitro en *Raphanus sativus* L.
 
 <div style="margin-top: 10px;">
-  <a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" class="btn btn-outline-primary btn-sm">Leer artículo</a>
+  <a href="https://www.mdpi.com/2037-0164/17/3/20" target="_blank" class="btn btn-outline-primary btn-sm">Ver artículo</a>
 </div>
 
+---
 
-<!-- Proyecto 4: Derivados de Grafeno -->
+## En redacción
+
 <p style="display: flex; align-items: center;">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
     <path d="M4 4h16v16H4z" />
@@ -57,24 +39,38 @@ Artículo de investigación que analiza los avances en la ingeniería de proteí
     <line x1="12" y1="14" x2="12" y2="8" />
     <line x1="16" y1="14" x2="16" y2="12" />
   </svg>
-  <span class="project-title">Análisis bibliométrico de los derivados del grafeno aplicados a la biotecnología (2010–2024)</span>
+  <span class="project-title">Análisis bibliométrico de derivados del grafeno aplicados a la biotecnología</span>
 </p>
 
-**Fecha:** En revisión  
-**Tipo:** Estudio bibliométrico – Universidad de Guayaquil  
+**Estado:** En redacción  
+**Tipo:** Manuscrito científico  
 
-Estudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnología. El manuscrito está en etapa de revisón para su presentación en un congreso académico en la Universidad de Guayaquil en Ecuador.  
-
-**Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
+Análisis bibliométrico sobre derivados del grafeno aplicados a la biotecnología entre 2010 y 2024. El trabajo fue presentado en Guayaquil y continuó su proceso editorial hacia la revista EASI de la Universidad de Guayaquil.
 
 <div style="margin-top: 10px;">
-  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
+  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en redacción</span>
 </div>
-
 
 ---
 
-<!-- Proyecto 4 : Análisis Bibliométrico -->
+<p style="display: flex; align-items: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+    <path d="M12 22s8-4 8-10V4l-8 4-8-4v8c0 6 8 10 8 10z" />
+  </svg>
+  <span class="project-title">Bioestimulante NEKATE en <em>Zea mays</em></span>
+</p>
+
+**Estado:** Análisis y redacción  
+**Tipo:** Manuscrito científico  
+
+Evaluación de un elicitor bioestimulante en maíz bajo un diseño de bloques, enfocada en la respuesta vegetativa temprana y el comportamiento de distintas dosis.
+
+<div style="margin-top: 10px;">
+  <span class="btn btn-outline-secondary btn-sm disabled">Resultados en preparación</span>
+</div>
+
+---
+
 <p style="display: flex; align-items: center;">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
     <path d="M3 3v18h18" />
@@ -82,20 +78,79 @@ Estudio en revisión sobre el uso de óxidos y derivados de grafeno en biotecnol
     <rect x="12" y="9" width="3" height="9" />
     <rect x="17" y="6" width="3" height="12" />
   </svg>
-  <span class="project-title">Análisis bibliométrico del impacto del grafeno en la interacción bacteria–material</span>
+  <span class="project-title">PISA 2022: recursos digitales en el hogar y logro académico</span>
 </p>
 
-**Fecha:** En progreso  
-**Tipo:** Estudio bibliométrico  
+**Estado:** Listo para envio  
+**Tipo:** Artículo científico  
 
-Este estudio explora la interacción entre el grafeno y los sistemas bacterianos, enfocándose en las tendencias científicas, las contribuciones de investigación y las perspectivas futuras.  
-
-**Herramientas utilizadas:** Scopus, VOSviewer, Bibliometrix.  
+Estudio con datos de PISA 2022 sobre recursos digitales en el hogar y rendimiento académico, orientado a una revista abierta del área de educación.
 
 <div style="margin-top: 10px;">
-  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito en progreso</span>
+  <span class="btn btn-outline-secondary btn-sm disabled">Manuscrito listo para envío</span>
 </div>
 
 ---
 
+## Congresos y ponencias
 
+<p style="display: flex; align-items: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+    <path d="M4 4h16v16H4z" />
+    <path d="M8 8h8" />
+    <path d="M8 12h8" />
+    <path d="M8 16h5" />
+  </svg>
+  <span class="project-title">COLIM 2026</span>
+</p>
+
+**Estado:** Aceptado  
+**Tipo:** Congreso académico  
+
+Participación con un trabajo sobre carbon fiber tubes en el X Congreso Latinoamericano de Ingeniería Mecánica.
+
+<div style="margin-top: 10px;">
+  <span class="btn btn-outline-secondary btn-sm disabled">Ponencia aceptada</span>
+</div>
+
+---
+
+<p style="display: flex; align-items: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+    <path d="M4 4h16v16H4z" />
+    <path d="M8 8h8" />
+    <path d="M8 12h8" />
+    <path d="M8 16h5" />
+  </svg>
+  <span class="project-title">CIMIT 2025</span>
+</p>
+
+**Estado:** Presentado  
+**Tipo:** Congreso académico  
+
+Ponencia presentada en CIMIT 2025. El desempeño del trabajo permitió su proyección editorial posterior en la revista EASI de la Universidad de Guayaquil.
+
+<div style="margin-top: 10px;">
+  <span class="btn btn-outline-secondary btn-sm disabled">Presentación realizada</span>
+</div>
+
+---
+
+## Otras publicaciones
+
+<p style="display: flex; align-items: center;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;">
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+    <path d="M4 4h16v16H4z" />
+  </svg>
+  <span class="project-title">Ingeniería de proteínas para el desarrollo de vacunas sintéticas</span>
+</p>
+
+**Estado:** Publicado  
+**Tipo:** Artículo de investigación  
+
+Artículo sobre ingeniería de proteínas aplicada al desarrollo de vacunas sintéticas. Participación como segundo autor.
+
+<div style="margin-top: 10px;">
+  <a href="http://polodelconocimiento.com/ojs/index.php/es/article/view/10261" target="_blank" class="btn btn-outline-primary btn-sm">Leer artículo</a>
+</div>
