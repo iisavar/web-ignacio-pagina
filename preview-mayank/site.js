@@ -34,24 +34,6 @@
     });
   });
 
-  document.querySelectorAll('.page-section > h2[id]').forEach((h) => {
-    const a = document.createElement('a');
-    a.className = 'heading-anchor';
-    a.href = '#' + h.id;
-    a.setAttribute('aria-label', 'Copiar enlace a esta sección');
-    a.textContent = '#';
-    a.addEventListener('click', async (e) => {
-      e.preventDefault();
-      const url = window.location.origin + window.location.pathname + '#' + h.id;
-      history.replaceState(null, '', '#' + h.id);
-      try { await navigator.clipboard.writeText(url); } catch (_) {}
-      const prev = a.textContent;
-      a.textContent = '✓';
-      setTimeout(() => { a.textContent = prev; }, 1200);
-    });
-    h.appendChild(a);
-  });
-
   document.querySelectorAll('.copy-btn').forEach((btn) => {
     btn.addEventListener('click', async () => {
       let source;
