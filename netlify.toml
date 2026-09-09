@@ -1,0 +1,33 @@
+[build]
+  publish = "preview-mayank"
+  command = "echo 'Static site — no build step needed.'"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml"
+    Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "/publicaciones"
+  to = "/publicaciones.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/actividades"
+  to = "/actividades.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/cv"
+  to = "/cv.html"
+  status = 301
+  force = false
