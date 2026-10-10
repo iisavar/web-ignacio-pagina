@@ -25,6 +25,9 @@ seguridad y redirecciones `/publicaciones`, `/actividades` y `/cv`.
    http://localhost:8765.
 4. Commit y `git push` a `main`: Netlify publica solo.
 
+La CSP de `netlify.toml` solo deja cargar archivos propios (más Google Fonts para `cv-print.html`).
+Si se agrega un recurso externo (analítica, fuente, video, iframe), hay que sumarlo a la CSP o no cargará.
+
 El repo es **público**: no subir `.env`, claves ni capturas personales (`tmp/` y
 `.claude/settings.local.json` están en `.gitignore`).
 
