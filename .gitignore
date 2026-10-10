@@ -51,3 +51,9 @@ rsconnect/
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Configuración local, temporales y claves (repo público)
+.claude/settings.local.json
+tmp/
+.env
+.env.*
