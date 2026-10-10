@@ -4,26 +4,32 @@ project:
   resources:
     - cv.pdf
     - logo_i02.png
-    - images/**
+    - foto_ignacio.jpg
   render:
     - index.qmd
-    - sobre-mi.qmd
-    - proyectos.qmd
+    - publicaciones.qmd
+    - congresos.qmd
+    - en-redaccion.qmd
 
 website:
-  title: "Ignacio Isa"
+  title: "Ignacio Isa-Vargas"
   favicon: logo_i02.png
+  page-navigation: false
 
   navbar:
+    background: light
+    foreground: dark
     left:
       - href: index.qmd
-        text: Inicio
-      - href: sobre-mi.qmd
         text: Sobre mí
-      - href: proyectos.qmd
-        text: Proyectos
+      - href: publicaciones.qmd
+        text: Publicaciones
+      - href: congresos.qmd
+        text: Congresos
+      - href: en-redaccion.qmd
+        text: En redacción
       - href: cv.pdf
-        text: Currículum
+        text: CV
 
 format:
   html:
@@ -31,5 +37,7 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
-    toc: true
+    toc: false
     page-layout: full
+    include-after-body:
+      - footer.html

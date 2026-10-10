@@ -1,0 +1,44 @@
+---
+title: "Publicaciones"
+format:
+  html:
+    css: styles.css
+    toc: false
+    page-layout: full
+---
+
+Artículos revisados por pares en los que he participado como autor o coautor. Mi rol ha sido principalmente el análisis estadístico y multivariado.
+
+## Publicados
+
+::: {.pub}
+Fajardo Aguilar, P. J., [Isa-Vargas, I.]{.self}, Valle-Asan, S., Fajardo Aguilar, J. R., & Valenzuela-Cobos, J. D. (2026). Multivariate impact response analysis of carbon fibre tubes using X-STATIS. *IET Conference Proceedings*. [DOI](https://doi.org/10.1049/icp.2026.2814){target="_blank"} [Scopus]{.status}
+
+Aproximación triádica X-STATIS para identificar patrones mecánicos comunes y diferenciales entre tipos de tubos de fibra de carbono. Publicado en el marco de COLIM 2026.
+:::
+
+::: {.pub}
+Vaca, G., [Isa-Vargas, I.]{.self}, Castañeda, A., Becerra, N., & Abad, M. (2026). Biotechnological Applications of Graphene Derivatives: Bibliometric Evaluation and Emerging Trends. *EASI: Ingeniería y Ciencias Aplicadas en la Industria*, 3(2). [DOI](https://doi.org/10.53591/easi.V3i2.2980){target="_blank"}
+
+Evaluación bibliométrica de 14 años de investigación (2010–2024) sobre derivados del grafeno aplicados a la biotecnología. Presentado inicialmente en CIMIT 2025.
+:::
+
+::: {.pub}
+Cagua-Montaño, L., Rodas-Pazmiño, K., Guevara-Viejó, J. F., Pazmiño-Gómez, B., [Isa-Vargas, I.]{.self}, Valle-Asan, S., y col. (2026). Multivariate Phenotyping of Early Plasticity in *Raphanus sativus* L. *International Journal of Plant Biology (MDPI)*, 17(3). [DOI](https://doi.org/10.3390/ijpb17030020){target="_blank"}
+
+Fenotipado multivariante bajo fertilización in vitro. El análisis de componentes principales capturó el 86,3 % de la varianza total.
+:::
+
+::: {.pub}
+Ortega Álvarez, P. I., [Isa-Vargas, I.]{.self}, Olmedo Karolys, S. A., & Guerra Naranjo, C. D. (2025). Ingeniería de proteínas para el desenvolvimiento de vacunas sintéticas. *Polo del Conocimiento*, 10(8). [DOI](https://doi.org/10.23857/pc.v10i8.10261){target="_blank"}
+
+Colaboración en la redacción y revisión del manuscrito.
+:::
+
+## En revisión
+
+::: {.pub}
+[Isa-Vargas, I.]{.self}, y col. (en revisión). Do Home Digital Resources Bridge or Widen the Achievement Gap? Evidence from PISA 2022 in Latin America and the Caribbean. *Education Sciences (MDPI)*. [En revisión]{.status}
+
+Estudio empírico con datos de PISA 2022 sobre la relación entre recursos digitales en el hogar y logro académico en América Latina y el Caribe.
+:::

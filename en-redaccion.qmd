@@ -1,0 +1,25 @@
+---
+title: "En redacción"
+format:
+  html:
+    css: styles.css
+    toc: false
+    page-layout: full
+---
+
+Manuscritos en preparación en los que trabajo como autor principal.
+
+::: {.draft}
+::: {.role}
+Respuesta morfológica de plántulas de maíz (*Zea mays* L.) a una formulación botánica foliar
+:::
+::: {.meta}
+Manuscrito en preparación · 2026 · Primer autor
+:::
+
+Ensayo exploratorio realizado en Milagro, Ecuador (mayo — junio 2025) con cinco concentraciones de una formulación botánica foliar sobre plántulas de maíz.
+
+Resultado principal: **incremento máximo del 65,8 %** en altura frente al testigo (ω²p = 0,921, p < 0,001), con efecto significativo también en circunferencia del pseudotallo y número de hojas. Diseño de bloques completos al azar (n = 30).
+
+Rol: diseño experimental, análisis estadístico y redacción.
+:::
