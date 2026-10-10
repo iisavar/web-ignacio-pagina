@@ -40,7 +40,7 @@ strong { font-weight: 400; }
   gap: 18px;
   justify-content: flex-end;
   margin: 0 auto;
-  max-width: 860px;
+  max-width: 1040px;
   min-height: 55px;
   padding: 16px 0 14px;
 }
@@ -48,7 +48,7 @@ strong { font-weight: 400; }
 .site-nav a:hover, .site-nav a.active { color: #222; text-decoration: none; }
 .site-nav a.active { border-bottom: 1px solid var(--link); padding-bottom: 5px; }
 
-.content { margin: 0 auto; max-width: 860px; padding: 88px 0 72px; }
+.content { margin: 0 auto; max-width: 1040px; padding: 88px 0 72px; }
 .profile-intro {
   align-items: start;
   display: grid;
@@ -266,7 +266,7 @@ strong { font-weight: 400; }
 }
 
 .site-footer { background: var(--footer); color: #ddd; min-height: 130px; }
-.footer-inner { align-items: center; display: flex; gap: 32px; justify-content: space-between; margin: 0 auto; max-width: 860px; min-height: 130px; padding: 26px 0; }
+.footer-inner { align-items: center; display: flex; gap: 32px; justify-content: space-between; margin: 0 auto; max-width: 1040px; min-height: 130px; padding: 26px 0; }
 .footer-inner p { color: #ddd; font-size: 16px; margin: 0; text-align: right; }
 .social-links { align-items: center; display: flex; gap: 26px; }
 .social-links a { color: #ddd; display: inline-flex; font-size: 18px; }
