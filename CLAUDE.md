@@ -1,6 +1,6 @@
 # web-ignacio-pagina
 
-> **Método de trabajo:** este proyecto sigue el método único de Ignacio (`C:\segundo-cerebro\metodo\Metodo de trabajo.md`). Antes de trabajar, lee la guía del área (`C:\segundo-cerebro\dominio\web\guia.md`) y la ficha (`C:\segundo-cerebro\proyectos\web-ignacio-pagina.md`). Al terminar algo importante, actualiza la ficha y la guía.
+> **Método de trabajo:** este proyecto sigue el método único de Ignacio (`C:\segundo-cerebro\metodo\Metodo de trabajo.md`). Antes de trabajar, lee la guía del área (`C:\segundo-cerebro\dominio\web\Guía de webs.md`) y la ficha (`C:\segundo-cerebro\proyectos\web-ignacio-pagina.md`). Al terminar algo importante, actualiza la ficha y la guía.
 
 ## Qué es
 
