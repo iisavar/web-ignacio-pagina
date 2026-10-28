@@ -158,14 +158,13 @@ strong { font-weight: 400; }
 .publication + .publication { border-top: 1px solid var(--line); padding-top: 44px; }
 .publication h3 {
   color: var(--heading);
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
-  line-height: 1.4;
-  margin: 0 0 13px;
+  line-height: 1.45;
+  margin: 0 0 10px;
 }
-.publication-authors, .publication-source, .publication-description, .contribution { color: var(--ink); font-size: 16px; line-height: 1.5; margin: 0 0 13px; }
-.publication-authors strong { color: var(--heading); font-weight: 600; }
-.publication-source { color: #777; margin-bottom: 0; }
+.publication-authors, .publication-source, .publication-description, .contribution { color: var(--ink); font-size: 16px; line-height: 1.5; margin: 0 0 10px; }
+.publication-authors strong { color: var(--ink); font-weight: 400; }
 .publication-source em { font-style: italic; }
 .publication-description { margin-top: 20px; }
 
