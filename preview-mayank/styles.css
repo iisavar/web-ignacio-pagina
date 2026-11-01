@@ -349,15 +349,20 @@ h2:hover .heading-anchor { opacity: 1; }
 
 @media print {
   html { scroll-behavior: auto; }
-  body { color: #000; font-size: 11pt; }
+  body { color: #000; font-size: 10pt; line-height: 1.4; }
   .site-header, .site-footer, .cv-download { display: none !important; }
   .content { max-width: none; padding: 0; }
   .cv-page { max-width: none; }
   .cv-header { border-color: #000; padding-bottom: 12pt; }
   .cv-header h1 { color: #000; font-size: 22pt; margin: 0 0 4pt; }
   .cv-header p { color: #333; font-size: 11pt; }
-  .cv-section { break-inside: avoid; margin-top: 18pt; padding-top: 12pt; }
-  .cv-section h2 { color: #000; font-size: 13pt; margin-bottom: 8pt; }
+  .cv-section, .cv-section:first-of-type { margin-top: 10pt; padding-top: 6pt; }
+  .cv-section h2 { break-after: avoid; color: #000; font-size: 13pt; margin-bottom: 6pt; }
+  .cv-entry { gap: 14px; grid-template-columns: 105px minmax(0, 1fr); }
+  .cv-bullets li { margin-bottom: 2pt; }
+  .cv-skills > div { padding: 3pt 0; }
+  .cv-publication { margin-bottom: 9pt; }
+  .cv-entry { margin-bottom: 10pt; }
   .cv-entry { break-inside: avoid; margin-bottom: 12pt; }
   .cv-entry h3 { color: #000; font-size: 11pt; }
   .cv-date, .cv-meta, .cv-note { color: #333; font-size: 10pt; }
@@ -366,5 +371,5 @@ h2:hover .heading-anchor { opacity: 1; }
   .cv-skills > div { border-bottom-color: #999; }
   a { color: #000; text-decoration: none; }
   .heading-anchor { display: none !important; }
-  @page { margin: 15mm 18mm; }
+  @page { margin: 14mm 16mm; }
 }
