@@ -372,3 +372,19 @@ h2:hover .heading-anchor { opacity: 1; }
   .heading-anchor { display: none !important; }
   @page { margin: 14mm 16mm; }
 }
+
+/* Portada, Proyectos y Trabaja conmigo (2026-11-02) */
+.profile-sub { color: #777; font-size: 15px; margin: 4px 0 0 !important; }
+.work-list { margin: 0; padding-left: 18px; }
+.work-list li { margin-bottom: 10px; }
+.work-name { color: var(--heading); }
+.project h3 { color: var(--heading); font-size: 17px; font-weight: 500; line-height: 1.35; margin: 0 0 6px; }
+.project { margin-bottom: 36px; }
+.project:last-child { margin-bottom: 0; }
+.project p { margin: 0 0 8px; }
+.project-for, .project-how { color: #888; font-size: 14px; }
+.plain-list { margin: 0; padding-left: 18px; }
+.plain-list li { margin-bottom: 8px; }
+.page-content > h1 { margin-bottom: 14px; }
+.site-nav a { white-space: nowrap; }
+@media (max-width: 520px) { .site-nav { gap: 10px; } .site-nav a { font-size: 12.5px; } }
