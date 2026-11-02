@@ -1,0 +1,9 @@
+{
+  "name": "cv-pdf",
+  "private": true,
+  "description": "Genera preview-mayank/cv.pdf desde cv-print.html",
+  "dependencies": {
+    "@fontsource/lato": "^5.2.5",
+    "playwright": "^1.64.1"
+  }
+}

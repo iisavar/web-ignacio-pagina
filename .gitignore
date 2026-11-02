@@ -57,3 +57,6 @@ rsconnect/
 tmp/
 .env
 .env.*
+
+# Herramienta del PDF del CV
+herramientas/node_modules/
