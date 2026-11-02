@@ -12,8 +12,8 @@ seguridad y redirecciones `/publicaciones`, `/actividades` y `/cv`.
 |---|---|
 | `index.html`, `publicaciones.html`, `actividades.html`, `cv.html` | Páginas del sitio |
 | `styles.css`, `site.js` | Estilos y comportamiento comunes |
-| `cv.pdf` | CV vigente (el único) |
-| `cv-print.html` | Plantilla para imprimir el CV en PDF; se publica pero no está enlazada |
+| `cv.pdf` | CV vigente (el único). Se genera desde `cv-print.html` (diseño Lato, 2 páginas A4) imprimiéndolo a PDF con Chromium |
+| `cv-print.html` | Fuente del PDF del CV; si cambia el CV, actualizar `cv.html` y `cv-print.html` a la vez y volver a generar `cv.pdf` |
 | `googledaf79e9a4c448e32.html` | Verificación de Google Search Console; no borrar |
 
 ## Cómo actualizar
