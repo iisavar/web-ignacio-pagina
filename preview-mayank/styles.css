@@ -302,7 +302,7 @@ strong { font-weight: 400; }
 .cv-skills { display: grid; gap: 0 34px; grid-template-columns: 1fr 1fr; }
 .cv-skills > div { align-items: baseline; border-bottom: 1px solid var(--line); display: flex; gap: 12px; justify-content: space-between; padding: 9px 0; }
 .cv-skills span { color: var(--heading); }
-.cv-skills small { color: #888; font-size: 12px; white-space: nowrap; }
+.cv-skills small { color: #888; font-size: 12px; text-align: right; }
 .cv-two-columns { display: grid; gap: 44px; grid-template-columns: .8fr 1.2fr; }
 .cv-two-columns .cv-section { border: 0; margin: 0; padding: 0; }
 .cv-two-columns h2 { margin-bottom: 14px; }

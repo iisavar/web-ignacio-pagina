@@ -3,379 +3,154 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV — Ignacio Isa-Vargas</title>
+<meta name="robots" content="noindex">
+<title>CV Ignacio Isa Vargas</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+  :root { --azul: #2f6fad; --texto: #1f1f1f; --suave: #555; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: A4; margin: 12mm 14mm 17mm; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { color: var(--texto); font-family: Lato, Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; }
+  .hoja { margin: 0 auto; max-width: 182mm; }
+  @media screen { body { background: #eee; } .hoja { background: #fff; margin: 24px auto; padding: 13mm 14mm; } }
+  a { color: var(--azul); text-decoration: none; }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  .cabecera { text-align: right; margin-bottom: 3mm; }
+  .cabecera h1 { font-size: 26pt; font-weight: 300; letter-spacing: .2px; line-height: 1.1; }
+  .cabecera h1 .nombre { color: #8a8a8a; }
+  .cabecera h1 .apellido { color: #3a3a3a; font-weight: 400; }
+  .cabecera p { font-size: 8.8pt; margin-top: 1.5mm; }
+  .punto { color: var(--azul); margin: 0 1.6mm; }
 
-  @page {
-    size: A4;
-    margin: 1.8cm 2cm;
-  }
+  h2 { align-items: center; break-after: avoid; color: var(--azul); display: flex; font-size: 13pt; font-weight: 400; gap: 3mm; margin: 3.8mm 0 1.6mm; }
+  h2::before { background: var(--azul); content: ""; display: block; flex: 0 0 31mm; height: 2.2mm; }
 
-  body {
-    font-family: Arial, 'Helvetica Neue', sans-serif;
-    font-size: 9.5pt;
-    line-height: 1.45;
-    color: #2c2c2c;
-    background: #fff;
-    max-width: 21cm;
-    margin: 0 auto;
-    padding: 1.8cm 2cm;
-  }
+  .perfil { text-align: justify; }
+  .fila { break-inside: avoid; display: grid; gap: 0 3mm; grid-template-columns: 31mm 1fr; margin-bottom: 1.5mm; }
+  .fecha { color: var(--texto); text-align: right; white-space: nowrap; }
+  .cargo b { font-weight: 700; }
+  .cargo i { font-style: italic; }
+  ul { list-style: none; margin: .5mm 0 0; }
+  li { margin-bottom: .5mm; padding-left: 4mm; position: relative; text-align: justify; }
+  li::before { border: 1.1px solid var(--azul); border-radius: 50%; content: ""; height: 1.9mm; left: 0; position: absolute; top: 1.2mm; width: 1.9mm; }
 
-  @media print {
-    body { padding: 0; }
-  }
+  .pub { break-inside: avoid; margin-bottom: 1.6mm; padding-left: 5.5mm; text-indent: -5.5mm; text-align: justify; }
+  .pub b { font-weight: 700; }
 
-  .name-header {
-    text-align: right;
-    margin-bottom: 0.3cm;
-    border-bottom: 2px solid #4a8ab5;
-    padding-bottom: 0.3cm;
-  }
-  .name-header h1 {
-    font-family: 'Cormorant Garamond', 'Georgia', serif;
-    font-size: 28pt;
-    font-weight: 400;
-    color: #2c2c2c;
-    letter-spacing: 0.5px;
-  }
-  .name-header h1 strong {
-    font-weight: 700;
-  }
-
-  .section-header {
-    font-family: 'Cormorant Garamond', 'Georgia', serif;
-    font-size: 14pt;
-    font-weight: 500;
-    color: #4a8ab5;
-    margin-top: 0.55cm;
-    margin-bottom: 0.05cm;
-    padding-bottom: 0.05cm;
-  }
-  .section-header::after {
-    content: '';
-    display: block;
-    height: 0.8px;
-    background: #4a8ab5;
-    margin-top: 2px;
-  }
-
-  .about {
-    margin-top: 0.15cm;
-    margin-bottom: 0.1cm;
-    text-align: justify;
-    hyphens: auto;
-  }
-  .about strong {
-    font-weight: 700;
-  }
-
-  .entry {
-    display: grid;
-    grid-template-columns: 3.3cm 1fr;
-    gap: 0 0.4cm;
-    margin-top: 0.2cm;
-    margin-bottom: 0.05cm;
-  }
-  .entry-date {
-    font-size: 9pt;
-    color: #555;
-    text-align: left;
-    padding-top: 1px;
-  }
-  .entry-content { }
-  .entry-title {
-    font-weight: 700;
-    font-size: 9.5pt;
-  }
-  .entry-subtitle {
-    font-style: italic;
-    color: #444;
-    font-size: 9.5pt;
-  }
-  .entry-location {
-    color: #666;
-    font-size: 9pt;
-  }
-  .entry-detail {
-    font-style: italic;
-    font-size: 9pt;
-    color: #555;
-    margin-top: 1px;
-  }
-
-  .bullets {
-    list-style: none;
-    margin-top: 2px;
-    padding-left: 0;
-  }
-  .bullets li {
-    padding-left: 1em;
-    text-indent: -1em;
-    margin-bottom: 1.5px;
-    text-align: justify;
-  }
-  .bullets li::before {
-    content: '○ ';
-    color: #4a8ab5;
-    font-size: 8pt;
-  }
-
-  .skills-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.1cm 1.5cm;
-    margin-top: 0.15cm;
-  }
-  .skill-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 1px 0;
-    border-bottom: 0.5px dotted #ddd;
-  }
-  .skill-name {
-    font-weight: 400;
-    font-size: 9.5pt;
-  }
-  .skill-level {
-    font-size: 9pt;
-    color: #555;
-    text-align: right;
-  }
-
-  .lang-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 1.5cm;
-    margin-top: 0.15cm;
-  }
-  .lang-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 1px 0;
-  }
-  .lang-name { font-weight: 400; }
-  .lang-level { color: #555; font-style: italic; }
-
-  .publication {
-    margin-top: 0.15cm;
-    margin-bottom: 0.15cm;
-    padding-left: 1.8em;
-    text-indent: -1.8em;
-    text-align: justify;
-    font-size: 9pt;
-    line-height: 1.4;
-  }
-  .publication .pub-number {
-    font-weight: 700;
-    color: #2c2c2c;
-  }
-  .publication .author-me {
-    font-weight: 700;
-  }
-  .publication em {
-    font-style: italic;
-  }
-  .publication .doi {
-    color: #666;
-    font-size: 8.5pt;
-  }
-
-  .cert-list {
-    list-style: none;
-    margin-top: 0.1cm;
-  }
-  .cert-list li {
-    padding-left: 1em;
-    text-indent: -1em;
-    margin-bottom: 1.5px;
-    font-size: 9pt;
-  }
-  .cert-list li::before {
-    content: '○ ';
-    color: #4a8ab5;
-    font-size: 8pt;
-  }
-
-  .footer {
-    margin-top: 0.6cm;
-    padding-top: 0.15cm;
-    border-top: 0.5px solid #ccc;
-    text-align: center;
-    font-size: 8.5pt;
-    color: #666;
-  }
-  .footer a {
-    color: #666;
-    text-decoration: none;
-  }
-  .footer .sep {
-    margin: 0 0.4em;
-    color: #aaa;
-  }
-
-  .page-break {
-    page-break-before: always;
-  }
+  .pie { color: var(--azul); font-size: 8pt; font-style: italic; margin-top: 8mm; text-align: center; }
+  @media print { .pie { display: none; } }
+  .salto { break-before: page; }
 </style>
 </head>
 <body>
+<div class="hoja">
 
-<!-- ═══════════════ NOMBRE ═══════════════ -->
-<div class="name-header">
-  <h1>Ignacio <strong>Isa-Vargas</strong></h1>
+<header class="cabecera">
+  <h1><span class="nombre">Ignacio</span> <span class="apellido">Isa Vargas</span></h1>
+  <p>Milagro, Ecuador<span class="punto">•</span><a href="tel:+593981981258">+593 981 981 258</a><span class="punto">•</span><a href="mailto:ignacio.isa007@gmail.com">ignacio.isa007@gmail.com</a></p>
+</header>
+
+<h2>Perfil</h2>
+<p class="perfil"><b>Ingeniero Biotecnólogo y analista de datos</b> con experiencia en estadística aplicada, investigación científica y docencia. Soy coautor de 5 artículos científicos, entre ellos uno en una revista Q1 (<i>Education Sciences</i>), y analizo datos con R, Python y SPSS, incluidos datos de evaluaciones a gran escala como PISA. Trabajo con datos de campañas, CRM y ventas de instituciones de educación superior, y automatizo reportes e integraciones con APIs. Curso la Maestría en Inteligencia Artificial en la Universidad Internacional de Valencia (VIU).</p>
+
+<h2>Experiencia en análisis de datos</h2>
+<div class="fila">
+  <div class="fecha">03/2026 – presente</div>
+  <div class="cargo"><b>Analista de Pauta y Datos</b>, <i>Agencia Lulú</i>, Ecuador
+    <ul>
+      <li>Analizo datos de campañas, CRM y ventas de instituciones de educación superior en un tablero de seguimiento comercial, e integré el CRM con la API de Conversiones de Meta.</li>
+      <li>Automaticé reportes comerciales diarios para los asesores de ventas y analicé el ciclo de venta, con una mediana de 5 días hasta la venta y el 85 % de las ventas dentro de los 30 días.</li>
+    </ul>
+  </div>
 </div>
-
-<!-- ═══════════════ SOBRE MÍ ═══════════════ -->
-<h2 class="section-header">Sobre mí</h2>
-<p class="about">
-  <strong>Ingeniero en Biotecnología</strong> con experiencia práctica en Marketing Operations, automatización de datos y modelado estadístico cuantitativo. Competente en R y Python, con sólida formación en diseño experimental, análisis multivariado y desarrollo de pipelines de datos. Coautor de 4 publicaciones científicas revisadas por pares en revistas indexadas internacionalmente (MDPI, IET, EASI) aplicando análisis estadístico experimental y multivariado. Experiencia en integración de CRM, atribución de marketing basada en APIs (Meta CAPI) y tableros de reporting automatizado.
-</p>
-
-<!-- ═══════════════ EXPERIENCIA ═══════════════ -->
-<h2 class="section-header">Experiencia</h2>
-
-<div class="entry">
-  <div class="entry-date">2025 – presente</div>
-  <div class="entry-content">
-    <div class="entry-title">Especialista en Marketing Operations y Automatización</div>
-    <div class="entry-subtitle">Servicios de Consultoría / Programas de Posgrado Universitarios, <span class="entry-location">Milagro, Ecuador</span></div>
-    <ul class="bullets">
-      <li>Diseñé e implementé pipelines de atribución de marketing conectando Pancake CRM con la API de Conversiones de Meta (CAPI) mediante análisis de conversaciones y eventos de leads cualificados.</li>
-      <li>Desarrollé flujos de integración y sincronización de datos con n8n, Python y Google Apps Script entre Meta Graph API, WhatsApp Business API y Google Sheets.</li>
-      <li>Construí tableros en Google Looker Studio para auditar el embudo comercial, tiempos de respuesta y rendimiento de conversión individual por asesor.</li>
-      <li>Automaticé la producción de variantes de creativos publicitarios basados en datos para pruebas A/B continuas.</li>
-      <li>Programé sistemas de reporting automatizado para seguimiento y alerta de métricas de adquisición (CPA, CPL, ROAS).</li>
+<div class="fila">
+  <div class="fecha">11/2025 – presente</div>
+  <div class="cargo"><b>Analista de Pauta Digital y Reportería</b>, <i>SISTRAVAN S.A.</i>, Milagro, Ecuador
+    <ul>
+      <li>Elaboro informes de gestión y de KPIs por proceso para programas de posgrado, analizo campañas en Meta Ads y automaticé el reporte diario por correo y por orden de trabajo.</li>
     </ul>
   </div>
 </div>
 
-<div class="entry">
-  <div class="entry-date">10/2024 – presente</div>
-  <div class="entry-content">
-    <div class="entry-title">Consultor Científico y Analista de Datos</div>
-    <div class="entry-subtitle">Consultoría Independiente, <span class="entry-location">Milagro, Ecuador</span></div>
-    <ul class="bullets">
-      <li>Asesoré a más de 30 estudiantes universitarios en diseño experimental (DBCA, factoriales) y análisis inferencial con R (nlme, emmeans, FactoMineR), Python y SPSS.</li>
-      <li>Creé pipelines reproducibles de limpieza de metadatos bibliográficos de Scopus y estructuración de manuscritos en LaTeX.</li>
+<h2>Investigación</h2>
+<div class="fila">
+  <div class="fecha">07/2025 – 11/2025</div>
+  <div class="cargo"><b>Colaborador en Análisis Estadístico</b>, <i>Centro de Estudios Estadísticos, Universidad Estatal de Milagro (UNEMI)</i>, Milagro, Ecuador
+    <ul>
+      <li>Colaboré en el análisis de datos de artículos científicos de alto impacto con estadística descriptiva, validación de instrumentos por juicio de expertos, análisis de varianza (ANOVA), regresión, componentes principales (PCA), modelos de ecuaciones estructurales (SEM) y bibliometría.</li>
+      <li>Apoyé la redacción de métodos y discusión, y depuré bases de datos institucionales.</li>
+    </ul>
+  </div>
+</div>
+<div class="fila">
+  <div class="fecha">10/2024 – presente</div>
+  <div class="cargo"><b>Asesor Académico Independiente</b>
+    <ul>
+      <li>Asesoro trabajos académicos en planteamiento metodológico, diseño experimental, análisis estadístico con R, Python y SPSS, y redacción científica.</li>
     </ul>
   </div>
 </div>
 
-<div class="entry">
-  <div class="entry-date">05/2025 – 07/2025</div>
-  <div class="entry-content">
-    <div class="entry-title">Asistente de Laboratorio Clínico</div>
-    <div class="entry-subtitle">Medimim S.A. Centro de Especialidades, <span class="entry-location">Milagro, Ecuador</span></div>
-    <ul class="bullets">
-      <li>Preparación de muestras biológicas, frotis y asistencia en protocolos de control de calidad bajo estándares de laboratorio clínico.</li>
+<h2>Formación académica</h2>
+<div class="fila"><div class="fecha">10/2026 – presente</div><div class="cargo"><b>Maestría en Inteligencia Artificial</b>, <i>Universidad Internacional de Valencia (VIU)</i>, España</div></div>
+<div class="fila"><div class="fecha">2022 – 2026</div><div class="cargo"><b>Ingeniero Biotecnólogo</b>, <i>Universidad Estatal de Milagro (UNEMI)</i>, Ecuador</div></div>
+<div class="fila"><div class="fecha">En curso</div><div class="cargo"><b>Programa Internacional de Ciencia de Datos e Inteligencia Artificial</b>, <i>Sociedad Ecuatoriana de Estadística</i></div></div>
+<div class="fila"><div class="fecha">En curso</div><div class="cargo"><b>Programa de Alta Especialización en Automatización Inteligente y Agentes</b>, <i>Escuela Global</i></div></div>
+
+<h2>Experiencia docente</h2>
+<div class="fila">
+  <div class="fecha">2023 – presente</div>
+  <div class="cargo"><b>Docente de Matemáticas, Química y Biología</b>, <i>Capacitación Integral</i>, Milagro, Ecuador
+    <ul>
+      <li>Preparo a estudiantes de bachillerato y aspirantes a la universidad en matemáticas, química y biología.</li>
+      <li>Diseño clases interactivas, bancos de ítems y simuladores de admisión con apoyo de IA, y exporto los bancos a Moodle con Python.</li>
+    </ul>
+  </div>
+</div>
+<div class="fila">
+  <div class="fecha">04/2024 – 12/2024</div>
+  <div class="cargo"><b>Ayudante de Cátedra en Fisicoquímica</b>, <i>Universidad Estatal de Milagro (UNEMI)</i>, Milagro, Ecuador
+    <ul>
+      <li>Impartí tutorías presenciales y virtuales a estudiantes de Ingeniería, apoyé las prácticas de laboratorio y elaboré guías académicas.</li>
     </ul>
   </div>
 </div>
 
-<!-- ═══════════════ EXPERIENCIA INICIAL ═══════════════ -->
-<h2 class="section-header">Experiencia Inicial</h2>
+<h2 class="salto">Publicaciones</h2>
+<p class="pub">[1] Torres-Ordóñez, L. H., <b>Isa-Vargas, I.</b>, Fajardo-Aguilar, P. J., Romero Mendoza, S. I., Cárdenas Dávila, V. G. y Calderón Cisneros, J. T. Do Home Digital Resources Bridge or Widen the Achievement Gap? Evidence from PISA 2022 in Latin America and the Caribbean. <i>Education Sciences</i>, 16(10), 1709, 2026. Q1 (JCR). <a href="https://doi.org/10.3390/educsci16101709">https://doi.org/10.3390/educsci16101709</a></p>
+<p class="pub">[2] Fajardo Aguilar, P. J., <b>Isa-Vargas, I.</b>, Valle-Asan, S., Fajardo Aguilar, J. R. y Valenzuela-Cobos, J. D. Multivariate impact response analysis of carbon fibre tubes using X-STATIS. <i>IET Conference Proceedings</i>, 2026. Derivado de una ponencia. <a href="https://doi.org/10.1049/icp.2026.2814">https://doi.org/10.1049/icp.2026.2814</a></p>
+<p class="pub">[3] Vaca, G., <b>Isa-Vargas, I.</b>, Castañeda, A., Becerra, N. y Abad, M. Biotechnological Applications of Graphene Derivatives. Bibliometric Evaluation and Emerging Trends. <i>EASI: Ingeniería y Ciencias Aplicadas en la Industria</i>, 3(2), 2026. Derivado de una ponencia. <a href="https://doi.org/10.53591/easi.V3i2.2980">https://doi.org/10.53591/easi.V3i2.2980</a></p>
+<p class="pub">[4] Cagua-Montaño, L., Rodas-Pazmiño, K., Guevara-Viejó, J. F., Pazmiño-Gómez, B., <b>Isa-Vargas, I.</b>, Valle-Asan, S. et al. Multivariate Phenotyping of Early Plasticity in <i>Raphanus sativus</i> L. <i>International Journal of Plant Biology</i>, 17(3), 2026. <a href="https://doi.org/10.3390/ijpb17030020">https://doi.org/10.3390/ijpb17030020</a></p>
+<p class="pub">[5] Ortega Álvarez, P. I., <b>Isa-Vargas, I.</b>, Olmedo Karolys, S. A. y Guerra Naranjo, C. D. Ingeniería de proteínas para el desenvolvimiento de vacunas sintéticas. <i>Polo del Conocimiento</i>, 10(8), 2025. <a href="https://doi.org/10.23857/pc.v10i8.10261">https://doi.org/10.23857/pc.v10i8.10261</a></p>
 
-<div class="entry">
-  <div class="entry-date">04/2024 – 12/2024</div>
-  <div class="entry-content">
-    <div class="entry-title">Ayudante de Cátedra en Fisicoquímica</div>
-    <div class="entry-subtitle">Universidad Estatal de Milagro (UNEMI), <span class="entry-location">Milagro, Ecuador</span></div>
-    <ul class="bullets">
-      <li>Facilitación de talleres prácticos de laboratorio, diseño de guías académicas en LaTeX y tutorías académicas.</li>
-    </ul>
-  </div>
+<h2>Software</h2>
+<div class="fila"><div class="fecha">2026</div><div class="cargo"><b>Isa-Vargas, I.</b> y Fajardo-Aguilar, P. J. Código de replicación del artículo [1] (v1.0.0). <i>Zenodo</i>. <a href="https://doi.org/10.5281/zenodo.22962495">https://doi.org/10.5281/zenodo.22962495</a></div></div>
+
+<h2>Ponencias y congresos</h2>
+<div class="fila"><div class="fecha">2026</div><div class="cargo"><b>Ponencia como tercer autor</b>, «El uso de Educaplay en la memoria semántica en estudiantes de sexto año de Educación General Básica», <i>10.º Congreso de Pedagogía, CICPE 2026</i>. Enviada.</div></div>
+<div class="fila"><div class="fecha">2026</div><div class="cargo"><b>X COLIM</b>, Congreso Latinoamericano de Ingeniería Mecánica (40 h), <i>Universidad Estatal de Milagro (UNEMI)</i>.</div></div>
+<div class="fila"><div class="fecha">2025</div><div class="cargo"><b>II CIMITC</b> (40 h), <i>Universidad de Guayaquil</i>.</div></div>
+<div class="fila"><div class="fecha">2025</div><div class="cargo"><b>II Jornadas Académicas de Ingeniería en Biotecnología</b> (40 h), <i>EPUNEMI</i>.</div></div>
+
+<h2>Herramientas</h2>
+<div class="fila"><div class="fecha">Análisis</div><div class="cargo">R, Python, SPSS, Jamovi, LaTeX, Quarto, Zotero y Mendeley.</div></div>
+<div class="fila"><div class="fecha">Datos y marketing</div><div class="cargo">Meta Ads, API de Conversiones de Meta, Pancake CRM, n8n y Google Apps Script.</div></div>
+<div class="fila"><div class="fecha">Docencia</div><div class="cargo">IA (Claude, ChatGPT, Gemini, Perplexity, NotebookLM), Moodle, Educaplay, Kahoot y Quizizz.</div></div>
+
+<h2>Capacitación</h2>
+<div class="fila"><div class="fecha">2025</div><div class="cargo"><b>Bioestadística en R</b> (40 h), <i>BioHack UIO</i></div></div>
+<div class="fila"><div class="fecha">2025</div><div class="cargo"><b>Python para Data Science y Machine Learning</b>, <i>Udemy</i></div></div>
+<div class="fila"><div class="fecha">2024</div><div class="cargo"><b>Redacción y Publicación de Artículos Científicos</b> (120 h), <i>Capacitadora Ambato</i></div></div>
+<div class="fila"><div class="fecha">2024</div><div class="cargo"><b>Diseños Experimentales</b> (40 h), <i>CICEID</i></div></div>
+<div class="fila"><div class="fecha">2024</div><div class="cargo"><b>Análisis Estadístico en SPSS, nivel intermedio</b> (40 h), <i>CICEID</i></div></div>
+<div class="fila"><div class="fecha">2024</div><div class="cargo"><b>Metodología de la Investigación y Normas APA</b> (40 h), <i>CICEID</i></div></div>
+
+<h2>Proyectos propios</h2>
+<div class="fila"><div class="fecha">CIDEA</div><div class="cargo">Asesoría académica y cursos. <a href="https://cideaec.com">cideaec.com</a></div></div>
+<div class="fila"><div class="fecha">Recreo Profe</div><div class="cargo">Planificaciones curriculares para docentes de Ecuador. <a href="https://recreoprofe.com">recreoprofe.com</a></div></div>
+
+<footer class="pie"><a href="https://iisav.netlify.app">iisav.netlify.app</a><span class="punto">•</span><a href="https://www.linkedin.com/in/ignacio-isa-vargas-a6b853224/">linkedin.com/in/ignacio-isa</a><span class="punto">•</span><a href="https://orcid.org/0009-0007-9837-4500">ORCID 0009-0007-9837-4500</a></footer>
 </div>
-
-<div class="entry">
-  <div class="entry-date">01/2023 – presente</div>
-  <div class="entry-content">
-    <div class="entry-title">Docente de Matemáticas y Biología</div>
-    <div class="entry-subtitle">Capacitación Integral, <span class="entry-location">Milagro, Ecuador</span></div>
-    <ul class="bullets">
-      <li>Impartición de clases teórico-prácticas y diseño de evaluaciones formativas para estudiantes de bachillerato.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ═══════════════ EDUCACIÓN ═══════════════ -->
-<h2 class="section-header">Educación</h2>
-
-<div class="entry">
-  <div class="entry-date">2022 – 2026</div>
-  <div class="entry-content">
-    <div class="entry-title">Ingeniería en Biotecnología</div>
-    <div class="entry-subtitle">Universidad Estatal de Milagro (UNEMI), <span class="entry-location">Ecuador</span></div>
-    <div class="entry-detail">Coordinador Académico, Club Estudiantil de Biotecnología BioQuator (2023–Presente).<br>Representante Académico Estudiantil, Consejo Académico UNEMI (2024–2025).</div>
-  </div>
-</div>
-
-<!-- ═══════════════ HABILIDADES ═══════════════ -->
-<h2 class="section-header">Habilidades de Programación y Software</h2>
-<div class="skills-grid">
-  <div class="skill-row"><span class="skill-name">R (FactoMineR, nlme, ggplot2)</span><span class="skill-level">Avanzado</span></div>
-  <div class="skill-row"><span class="skill-name">Python (pandas, scipy, scikit-learn)</span><span class="skill-level">Intermedio</span></div>
-  <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-level">Intermedio</span></div>
-  <div class="skill-row"><span class="skill-name">Google Apps Script</span><span class="skill-level">Intermedio</span></div>
-  <div class="skill-row"><span class="skill-name">LaTeX / Quarto</span><span class="skill-level">Avanzado</span></div>
-  <div class="skill-row"><span class="skill-name">SPSS / Jamovi / Minitab</span><span class="skill-level">Intermedio</span></div>
-  <div class="skill-row"><span class="skill-name">Google Looker Studio</span><span class="skill-level">Avanzado</span></div>
-  <div class="skill-row"><span class="skill-name">Power BI / Tableau</span><span class="skill-level">Básico</span></div>
-  <div class="skill-row"><span class="skill-name">n8n / REST APIs / Webhooks</span><span class="skill-level">Intermedio</span></div>
-  <div class="skill-row"><span class="skill-name">Meta Ads / CAPI / HubSpot</span><span class="skill-level">Intermedio</span></div>
-</div>
-
-<!-- ═══════════════ IDIOMAS ═══════════════ -->
-<h2 class="section-header">Idiomas</h2>
-<div class="lang-grid">
-  <div class="lang-item"><span class="lang-name">Español</span><span class="lang-level">Nativo</span></div>
-  <div class="lang-item"><span class="lang-name">Inglés</span><span class="lang-level">Básico–Intermedio (escrito con apoyo de IA)</span></div>
-</div>
-
-<!-- ═══════════════ PUBLICACIONES ═══════════════ -->
-<h2 class="section-header">Publicaciones</h2>
-
-<p class="publication">
-  <span class="pub-number">[1]</span> Fajardo Aguilar, P. J., <span class="author-me">Isa-Vargas, I.</span>, Valle-Asan, S., Fajardo Aguilar, J. R., and Valenzuela-Cobos, J. D. Multivariate impact response analysis of carbon fibre tubes using X-STATIS. <em>IET Conference Proceedings</em>, 2026. <span class="doi">(doi.org/10.1049/icp.2026.2814)</span>
-</p>
-
-<p class="publication">
-  <span class="pub-number">[2]</span> Vaca, G., <span class="author-me">Isa-Vargas, I.</span>, Castañeda, A., Becerra, N., and Abad, M. Biotechnological Applications of Graphene Derivatives: Bibliometric Evaluation and Emerging Trends. <em>EASI: Ingeniería y Ciencias Aplicadas en la Industria</em>, 3(2), 2026. <span class="doi">(doi.org/10.53591/easi.V3i2.2980)</span>
-</p>
-
-<p class="publication">
-  <span class="pub-number">[3]</span> Cagua-Montaño, L., Rodas-Pazmiño, K., Guevara-Viejó, J. F., Pazmiño-Gómez, B., <span class="author-me">Isa-Vargas, I.</span>, Valle-Asan, S. et al. Multivariate Phenotyping of Early Plasticity in <em>Raphanus sativus</em> L. <em>International Journal of Plant Biology</em>, 17(3), 2026. <span class="doi">(doi.org/10.3390/ijpb17030020)</span>
-</p>
-
-<p class="publication">
-  <span class="pub-number">[4]</span> Ortega Álvarez, P. I., <span class="author-me">Isa-Vargas, I.</span>, Olmedo Karolys, S. A., and Guerra Naranjo, C. D. Ingeniería de proteínas para el desenvolvimiento de vacunas sintéticas. <em>Polo del Conocimiento</em>, 10(8), 2025. <span class="doi">(doi.org/10.23857/pc.v10i8.10261)</span>
-</p>
-
-<p class="publication">
-  <span class="pub-number">[5]</span> <span class="author-me">Isa-Vargas, I.</span> et al. Do Home Digital Resources Bridge or Widen the Achievement Gap? Evidence from PISA 2022. <em>Education Sciences (MDPI)</em> — manuscrito en revisión.
-</p>
-
-<!-- ═══════════════ CERTIFICACIONES ═══════════════ -->
-<h2 class="section-header">Certificaciones</h2>
-<ul class="cert-list">
-  <li>Bioestadística en R Workshop 2025 (40h) — BioHack UIO, Jul 2025</li>
-  <li>Redacción y Publicación de Artículos Científicos (120h) — Capacitadora Ambato, Mar 2024</li>
-  <li>Diseños Experimentales y Análisis Estadístico en SPSS (80h) — CICEID, 2024</li>
-  <li>Python para Data Science y Machine Learning — Udemy, Mar 2025</li>
-  <li>X Congreso Latinoamericano de Ingeniería Mecánica COLIM y II Jornadas de Biotecnología (80h) — UNEMI, 2026</li>
-</ul>
-
-<!-- ═══════════════ FOOTER ═══════════════ -->
-<div class="footer">
-  ✉ ignacio.isa007@gmail.com <span class="sep">•</span>
-  ⊕ iisav.netlify.app <span class="sep">•</span>
-  <span style="font-family: Arial, sans-serif;">in</span> linkedin.com/in/ignacio-isa <span class="sep">•</span>
-  ⊕ orcid.org/0009-0007-9837-4500
-</div>
-
 </body>
 </html>
